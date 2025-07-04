@@ -1,6 +1,6 @@
 {
-  "version": "3.1.0",
-  "notes": "• Added auto-update feature\n• Improved USB drive detection\n• Bug fixes and performance improvements",
-  "download_url": "https://volovicg.github.io/K-Configurator-Update/K-Configurator.dmg"
+  "version": "3.3.0",
+  "notes": "• Added auto-update feature\n• Bug fixes",
+  "download_url": "https://github.com/volovicg/K-Configurator/releases/download/latest/K-Configurator.dmg"
 }
 
