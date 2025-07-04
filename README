@@ -1,0 +1,22 @@
+the dmg must be copied to the K-Configurator-Upate folder
+the json file must define the verion number of that the above and the URL must be correct.
+once working the URL should never need changing only the version.
+I am using gh-pages to host the Json file and releases to host the dmg
+to push change to gh-pages
+git add update.jsaon   ( and whatever else you want to commit and push_
+git commit -m "descr"
+git push origin gh-pages.
+
+This line uploads the binary asset to the release section of the repo 
+latest is the tag
+gh release upload latest K-Configurator.dmg --clobber
+
+
+for git the origin in that folder is set to
+
+MacBook-Pro--M4:K-Configurator-Update volovicg$ git remote -v
+origin	https://github.com/volovicg/K-Configurator-Update.git (fetch)
+origin	https://github.com/volovicg/K-Configurator-Update.git (push)
+
+do all the above from the K-Configurator folder
+
