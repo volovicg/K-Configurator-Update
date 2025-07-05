@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0",
+  "version": "25.07.04",
   "notes": "• Added auto-update feature\n• Improved USB drive detection\n• Bug fixes and performance improvements",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg"
 }
