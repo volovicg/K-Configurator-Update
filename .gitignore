@@ -1,0 +1,95 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# macOS-specific metadata folders
+.Spotlight-V100
+.Trashes
+VolumeIcon.icns
+
+# macOS indexing
+.fseventsd
+.TemporaryItems
+.com.apple.timemachine.donotpresent
+.com.apple.mobile.*  # iOS device artifacts
+
+# Build folders
+build/
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Qt/Make/CMake build artifacts
+*.user
+*.autosave
+*.pro.user*
+*.qmake.stash
+Makefile*
+CMakeLists.txt.user*
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+
+# Qt Creator clutter
+*.creator.user
+*.creator.user.*
+*.creator.workspace
+
+# Python cache (if scripting)
+__pycache__/
+*.pyc
+
+# Xcode-related
+*.xcworkspace
+*.xcodeproj
+*.xcuserdata
+*.xcuserstate
+*.pbxuser
+
+# Package/disk image outputs
+*.dmg
+*.pkg
+*.zip
+*.tar
+*.gz
+*.bz2
+
+# GitHub-specific
+*.log
+*.bak
+*.swp
+*~
+
+# Node/npm (if you ever touch frontend stuff)
+node_modules/
+dist/
+
+# Local release artifacts
+*.DS_Store
+*.log
+*.tmp
+
+# Sign/Notarize output
+*.zip
+*.signed.dmg
+*.unsigned.dmg
+*.stapled.dmg
+
+# Backups
+*.bak
+*.old
+*.orig
+
