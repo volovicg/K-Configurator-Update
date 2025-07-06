@@ -8,8 +8,8 @@ APP_BUNDLE="${APP_NAME}.app"
 DMG_NAME="${APP_NAME}.dmg"
 VOLUME_NAME="${APP_NAME}"
 STAGING_DIR="./dmg-staging"
-APP_SOURCE="/Users/volovicg/K-Configurator/K-Configurator-MAC-WIN-/build/Qt_6_9_0_for_macOS-Release/${APP_BUNDLE}"
-BACKGROUND_IMG="../4dmg.png"
+APP_SOURCE="${APP_BUNDLE}"
+BACKGROUND_IMG="4dmg.png"
 
 # Clean up old files
 echo "🧹 Cleaning old files..."

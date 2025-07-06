@@ -1,6 +1,6 @@
 {
-  "version": "25.07.05",
-  "notes": "• Added Activation feature\n• Dialogue Improvements\n• Bug fixes and performance improvements",
+  "version": "25.07.051",
+  "notes": "• Fixed Menu Bar • Code Signing and Notarization\n• App is completely Trusted",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg"
 }
 
