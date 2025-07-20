@@ -1,5 +1,5 @@
 {
-  "version": "25.07.191045",
-  "notes": "✅  Fixed Index Issue\n\n✅ Auto Generate version\n\n✅ Corrected SL Format\n\n✅ DisplayPrint Banks and Scenes\n\n",
+  "version": "25.07.201227",
+  "notes": "✅ Added Bank Drag..Drop\n\n✅ added Riff Drag..Drop\n\n✅ \n\n✅ Still needs Latest Noel Lib\n\n",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg"
 }
