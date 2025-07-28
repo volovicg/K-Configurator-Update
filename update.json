@@ -1,5 +1,5 @@
 {
-  "version": "25.07.250051",
-  "notes": "✅ Added Right Click to export selected rifs to sca files\n\n✅ Fixed Multiple Bank Drag & Drop\n\n✅ Added Multiple Riff Drag & Drop\n\n✅ Check for updates on Startup\n\n✅ NEW!! July 20th Noel Library - 22 Scenes",
+  "version": "25.07.280004",
+  "notes": "✅ Added Right Click on Single Tree to mark as Empty \n\n✅ fixed removal of ._ files\n\n✅ Added Multiple Riff Drag & Drop\n\n✅ Windows Version Operational Now\n\n✅ NEW!! July 20th Noel Library - 22 Scenes",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg"
 }
