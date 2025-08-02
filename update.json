@@ -1,5 +1,6 @@
 {
-  "version": "25.08.020408",
-  "notes": "✅ Added Right Click on Single Tree to mark as Empty \n\n✅ fixed removal of ._ files\n\n✅ Added Multiple Riff Drag & Drop\n\n✅ Bug Fixes Cause by Windows Version\n\n✅ Ability to Format up to 128GB USB drives",
-  "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg"
+  "version": "25.08.021742",
+  "notes": "✅ Added Right Click on Single Tree to mark as Empty \n\n✅ fixed removal of ._ files\n\n✅ Added Multiple Riff Drag & Drop\n\n✅ Windows Version Operational Now\n\n✅ NEW!! July 20th Noel Library - 22 Scenes",
+  "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup.exe"
 }
