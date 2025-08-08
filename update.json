@@ -1,5 +1,5 @@
 {
-  "version_win": "2.0.87",
+  "version_win": "2.0.89",
   "version_mac": "2.0.106",
   "notes": "✅ Add Noel Reference Manual\n\n✅ NEW!!! ._ clean routine\n\n✅ Removed native dot_clean\n\n✅ Still needs Noel activation\n\n✅ Added Bank to scene export .sca",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup.exe",
