@@ -1,6 +1,6 @@
 {
-  "version_win": "2.2.20",
-  "version_mac": "2.2.38",
+  "version_win": "2.2.30",
+  "version_mac": "2.2.50",
   "notes": "* Multi-Column PDF with backup name\n* Added 14 Day trial Activaton\n* Allow Software updates when not activited\n* Added Roboto Font class\n* Added License/Activation data in Help->About",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg"
