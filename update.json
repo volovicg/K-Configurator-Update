@@ -1,7 +1,7 @@
 {
-  "version_win": "2.2.34",
-  "version_mac": "2.2.64",
-  "notes": "* Multi-Column PDF with backup name\n* Added 14 Day trial Activaton\n* Allow Software updates when not activited\n* Added Roboto Font class\n* Added License/Activation data in Help->About",
+  "version_win": "2.2.154",
+  "version_mac": "2.2.76",
+  "notes": "* Add Latest NOEL Sound Library\n* Add Latest Noel Documentation\n* Added Roland Converter Code-Hooks\nAugust 13, 2025\nVersion 2.2.2+",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg"
 }
