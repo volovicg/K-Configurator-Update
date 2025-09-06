@@ -1,7 +1,7 @@
 {
-  "version_win": "2.2.154",
-  "version_mac": "2.2.76",
-  "notes": "* Add Latest NOEL Sound Library\n* Add Latest Noel Documentation\n* Added Roland Converter Code-Hooks\nAugust 13, 2025\nVersion 2.2.2+",
+  "version_win": "2.3.2",
+  "version_mac": "2.2.118",
+  "notes": "* Add Paypal Subscription and BUY Now feature\n* fixed USB drive detection (Windows)\n* minor bug fixes",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg"
 }
