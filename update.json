@@ -1,5 +1,5 @@
 {
-  "version_win": "2.3.2",
+  "version_win": "2.3.4",
   "version_mac": "2.2.118",
   "notes": "* Add Paypal Subscription and BUY Now feature\n* fixed USB drive detection (Windows)\n* minor bug fixes",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
