@@ -1,5 +1,5 @@
 {
-  "version_win": "2.3.24",
+  "version_win": "2.3.26",
   "version_mac": "2.3.30",
   "notes": "* Single Tree View (move allowed)\n* New Sept5th Noel Sounds\n* fixed export .sca crash\n* Increased USB to 256G\n* Add Paypal Subscription and BUY Now feature\n* fixed USB drive detection (Windows)\n* minor bug fixes",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
