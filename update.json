@@ -1,6 +1,6 @@
 {
-  "version_win": "2.3.93",
-  "version_mac": "2.3.76",
+  "version_win": "2.3.98",
+  "version_mac": "2.3.94",
   "notes": "**********************\nSept 5th 2025\nVersion 2.2.2+\n**********************\nNEW!\n* Single Tree View (move allowed)\n* New Sept5th Noel Sounds\n* fixed export .sca crash",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg"
