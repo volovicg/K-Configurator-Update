@@ -1,7 +1,7 @@
 {
-  "version_win": "2.3.103",
-  "version_mac": "2.3.98",
-  "notes": "**********************\nSept 12th 2025\nVersion 2.2.9x+\n**********************\nNEW!\n* fixed version increment\n* added backdoor version update\n* fixed windows dll issue",
+  "version_win": "2.3.104",
+  "version_mac": "2.3.115",
+  "notes": "**********************\nSept 12th 2025\nVersion 2.2.9x+\n**********************\nNEW!\n* progress dialoge for Noel installs\n* quit menu under File\n* Corrected display bank math for Noel",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg"
 }
