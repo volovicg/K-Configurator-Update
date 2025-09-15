@@ -1,6 +1,6 @@
 {
-  "version_win": "3.0.2",
-  "version_mac": "3.0.1",
+  "version_win": "3.0.3",
+  "version_mac": "3.0.4",
   "notes": "*********************\nSept 15th 2025\nVersion 3.0.x+\n**********************\nNEW!\n* NEW SEPT15 NOEL Library\n* NEW Noel Ref Manual\n* Further Fixes to MAC Security",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg"
