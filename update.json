@@ -1,7 +1,7 @@
 {
-  "version_win": "4.2.2",
-  "version_mac": "4.1.3",
-  "notes": "*********************\nSept 19th 2025\nVersion 4.2.x+\n**********************\nNEW!\n* Added Grace Days if NAS is down\n* Added Double Confirm for USB Format\n* Added Undo Button/cmd/ctl-z for Tree Views",
+  "version_win": "4.2.5",
+  "version_mac": "4.2.4",
+  "notes": "*********************\nSept 21h 2025\nVersion 4.2.x+\n**********************\nNEW!\n* Added print range for trees (Ian)\n* Added Grace Days if NAS is down\n* Added Double Confirm for USB Format",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg"
 }
