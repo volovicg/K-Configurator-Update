@@ -1,8 +1,8 @@
 {
-  "version_win": "5.4.1",
-  "version_mac": "5.3.22",
-  "version_linux": "5.4.3",
-  "version": "5.4.3",
+  "version_win": "5.4.7",
+  "version_mac": "5.4.5",
+  "version_linux": "5.4.7",
+  "version": "5.4.7",
   "notes": "*********************\nSept 23rd 2025\nVersion 5.0.x+\n**********************\nNEW!\n* Added Linux Build\n* Added Grace Days if NAS is down\n* Added Double Confirm for USB Format",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
