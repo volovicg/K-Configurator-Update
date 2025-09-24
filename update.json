@@ -1,7 +1,11 @@
 {
-  "version_win": "4.2.5",
-  "version_mac": "4.2.4",
-  "notes": "*********************\nSept 21h 2025\nVersion 4.2.x+\n**********************\nNEW!\n* Added print range for trees (Ian)\n* Added Grace Days if NAS is down\n* Added Double Confirm for USB Format",
+  "version_win": "5.3.2",
+  "version_mac": "5.0.12",
+  "version_linux": "5.3.2",
+  "version": "5.3.2",
+  "notes": "*********************\nSept 23rd 2025\nVersion 5.0.x+\n**********************\nNEW!\n* Added Linux Build\n* Added Grace Days if NAS is down\n* Added Double Confirm for USB Format",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
-  "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg"
+  "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
+  "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
+  "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage"
 }
