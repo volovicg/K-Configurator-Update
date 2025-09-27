@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>K-Configurator — Companion App for Korg Fisa Suprema</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="K-Configurator: the ultimate cross-platform bank & scene manager for Korg Fisa Suprema. Clean USBs, organize banks, bi-directional moves, replace/swap, print ranges, and more." />
+  <meta property="og:title" content="K-Configurator — Companion App for Korg Fisa Suprema" />
+  <meta property="og:description" content="Clean USBs, organize banks, bi-directional moves, replace/swap, print ranges, subscriptions via PayPal, and more." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0f172a" />
+  <style>
+    :root{
+      --bg: #0b1020;
+      --panel: #121a35;
+      --text: #e6eaf6;
+      --muted: #a9b0c7;
+      --brand: #6ec1ff;
+      --brand-2: #8af5c8;
+      --accent: #ffd166;
+      --ok: #19d27e;
+      --warn: #ffb703;
+      --link: #7cc4ff;
+      --border: #1f2a4d;
+      --shadow: 0 8px 24px rgba(0,0,0,.35);
+      --radius: 14px;
+      --radius-sm: 10px;
+      --maxw: 1080px;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg: #f7f9ff;
+        --panel: #ffffff;
+        --text: #0f172a;
+        --muted: #47507a;
+        --brand: #0b6bcb;
+        --brand-2: #008a63;
+        --accent: #9b6cff;
+        --link: #0b6bcb;
+        --border: #e5e8f2;
+        --shadow: 0 10px 24px rgba(10,30,70,.08);
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:24px}
+    header.hero{
+      position:relative;border-radius:var(--radius);padding:48px 28px;background:
+        radial-gradient(1200px 500px at 10% -10%, rgba(110,193,255,.25), transparent 60%),
+        radial-gradient(800px 400px at 90% -10%, rgba(138,245,200,.25), transparent 60%),
+        var(--panel);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .hero h1{margin:0 0 12px;font-size:clamp(28px,4.5vw,44px);line-height:1.15;letter-spacing:.2px}
+    .hero p{margin:0;color:var(--muted);max-width:64ch}
+    .cta{
+      display:flex;flex-wrap:wrap;gap:12px;margin-top:22px
+    }
+    .btn{
+      display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:12px;
+      background:linear-gradient(180deg, var(--brand), var(--brand-2));
+      color:#001018;font-weight:700;border:0;box-shadow:var(--shadow)
+    }
+    .btn:hover{transform:translateY(-1px)}
+    .btn.subtle{background:transparent;color:var(--text);border:1px solid var(--border)}
+    .grid{display:grid;gap:18px}
+    @media(min-width:900px){.grid-cols-3{grid-template-columns:repeat(3,1fr)} .grid-cols-2{grid-template-columns:repeat(2,1fr)}}
+    section{margin:32px 0}
+    .card{
+      background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+      padding:18px;box-shadow:var(--shadow)
+    }
+    h2{margin:0 0 10px;font-size:clamp(20px,2.7vw,28px)}
+    h3{margin:0 0 8px;font-size:18px}
+    ul{margin:6px 0 0 18px;padding:0}
+    li{margin:6px 0}
+    .tag{display:inline-block;font-size:12px;padding:3px 10px;border:1px solid var(--border);
+      border-radius:999px;color:var(--muted);margin:0 6px 6px 0}
+    .pill {background:rgba(255,255,255,.06);padding:6px 10px;border-radius:999px;border:1px solid var(--border);font-size:13px}
+    .two-col{display:grid;gap:18px}
+    @media(min-width:900px){.two-col{grid-template-columns:1.3fr .9fr}}
+    .list-compact li{margin:4px 0}
+    .note{font-size:14px;color:var(--muted)}
+    .kbd{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;padding:2px 6px;border:1px solid var(--border);border-radius:6px;background:rgba(255,255,255,.06)}
+    .foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;border-top:1px solid var(--border);padding-top:16px;margin-top:32px}
+    /* Print: one clean 8.5x11 page if possible */
+    @page { size: Letter; margin: 0.5in; }
+    @media print{
+      .btn,.cta{display:none!important}
+      header.hero{box-shadow:none}
+      a{color:inherit;text-decoration:underline}
+      body{background:white;color:black}
+      .card{break-inside:avoid}
+      .wrap{padding:0}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <header class="hero">
+      <h1>K-Configurator — Companion App for Korg Fisa Suprema</h1>
+      <p>Clean USBs, organize banks & scenes, perform bi-directional moves, replace or swap in one click, print ranges, export, and unlock premium libraries. Cross-platform for macOS, Windows, and Linux — with a 14-day free trial.</p>
+      <div class="cta" role="navigation" aria-label="Primary actions">
+        <a class="btn" href="https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg">⬇ Download for macOS</a>
+        <a class="btn" href="https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe">⬇ Download for Windows</a>
+        <a class="btn subtle" href="#linux">Linux AppImage</a>
+        <a class="btn subtle" href="#features">Explore Features</a>
+      </div>
+    </header>
+
+    <section id="features" class="two-col">
+      <div class="card">
+        <h2>Core Features (All Platforms)</h2>
+        <ul>
+          <li><strong>USB Cleaning</strong> — Removes hidden dot-files and resource-fork “ghost” files so your instrument reads the drive cleanly.</li>
+          <li><strong>Drive Prep</strong> — Build the correct folder structure for backups instantly.</li>
+          <li><strong>Tree Management</strong> — 100 banks per backup (00–99), each with scenes A–F.</li>
+          <li><strong>Dual-Tree View</strong> — Work with <em>source</em> and <em>destination</em> side-by-side.</li>
+          <li><strong>Bi-Directional Moves</strong> — Drag banks/scenes either direction between trees.</li>
+          <li><strong>Granular Control</strong> — Move an entire bank, a single scene, or a selected group of scenes anywhere.</li>
+          <li><strong>Replace vs Swap</strong> modes:
+            <ul class="list-compact">
+              <li><strong>Replace</strong> — Sends source → destination <em>without</em> altering the source.</li>
+              <li><strong>Swap</strong> — Sends source → destination, then returns the destination’s original back to the source.</li>
+            </ul>
+          </li>
+          <li><strong>Undo</strong> — Instant rollback of the last operation.</li>
+          <li><strong>Printing</strong> — Print the full tree or just a range (e.g., Banks 1–20) with crisp, high-contrast output.</li>
+          <li><strong>Bulk Export</strong> — Convert batches of <code>.rif</code> → <code>.sca</code> without prompts.</li>
+          <li><strong>Selective Restore</strong> — Extract whole archives or specific banks only.</li>
+        </ul>
+        <div style="margin-top:10px">
+          <span class="tag">Cross-platform</span>
+          <span class="tag">Bi-directional</span>
+          <span class="tag">Undo</span>
+          <span class="tag">Print ranges</span>
+          <span class="tag">Bulk export</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Try, Subscribe, Expand</h2>
+        <ul>
+          <li><strong>14-Day Free Trial</strong> — Explore all core features before committing.</li>
+          <li><strong>In-App Purchases & Subscriptions</strong> — Securely handled via <strong>PayPal</strong>.</li>
+          <li><strong>Premium Libraries</strong> — Unlock pro-grade sound libraries (e.g., <em>Richard Noel</em>) in-app.</li>
+          <li><strong>Future Content</strong> — New high-quality libraries curated from artists worldwide.</li>
+        </ul>
+        <p class="note">Manage activation, trial status, and licenses in the app’s About section.</p>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-3">
+      <div class="card" id="mac">
+        <h2>macOS</h2>
+        <ul>
+          <li>Universal build for Apple Silicon & Intel.</li>
+          <li>Fully signed & notarized for macOS Sequoia 15.x+.</li>
+          <li>USB cleaning & dual-tree editing supported.</li>
+          <li>Printing and range prints ready for stage or studio.</li>
+        </ul>
+        <p><a class="btn" href="https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg">Install on macOS</a></p>
+        <p class="note">Min: macOS 15 (Sequoia) or later, 8GB RAM, USB port.</p>
+      </div>
+
+      <div class="card" id="win">
+        <h2>Windows</h2>
+        <ul>
+          <li>Signed installer for Windows 10/11 (x64).</li>
+          <li><strong>FAT32 formatting up to 256GB</strong> plus exFAT support.</li>
+          <li>Includes required VC++ runtimes.</li>
+          <li>Full bi-directional moves, Replace/Swap, and Undo.</li>
+        </ul>
+        <p><a class="btn" href="https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe">Install on Windows</a></p>
+        <p class="note">Min: Windows 10 x64, 8GB RAM, USB port.</p>
+      </div>
+
+      <div class="card" id="linux">
+        <h2>Linux</h2>
+        <ul>
+          <li>Portable AppImage for major distros.</li>
+          <li>Tested on Ubuntu 22.04+ (glibc ≥ 2.35).</li>
+          <li>Dual-tree editing, printing, export supported.</li>
+        </ul>
+        <p><a class="btn" href="#"
+              onclick="alert('Add your AppImage URL here once published.');return false;">Install on Linux (AppImage)</a></p>
+        <p class="note">Recommended: 8GB RAM, USB port. Compatible with Ubuntu, Fedora, Debian, Arch, openSUSE.</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>System Requirements</h2>
+      <div class="grid grid-cols-3">
+        <div>
+          <h3>macOS</h3>
+          <ul class="list-compact">
+            <li>Sequoia 15.x or later</li>
+            <li>Apple Silicon or Intel</li>
+            <li>8GB RAM, 200MB free</li>
+            <li>USB port</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Windows</h3>
+          <ul class="list-compact">
+            <li>Windows 10/11 (x64)</li>
+            <li>VC++ runtime (bundled)</li>
+            <li>8GB RAM, 200MB free</li>
+            <li>USB port</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Linux</h3>
+          <ul class="list-compact">
+            <li>Modern distro; glibc ≥ 2.35</li>
+            <li>8GB RAM, 200MB free</li>
+            <li>USB port</li>
+          </ul>
+        </div>
+      </div>
+      <p class="note">Windows build supports FAT32 formatting up to 256GB; exFAT supported across platforms (OS-dependent UI/permissions may apply).</p>
+    </section>
+
+    <section class="card">
+      <h2>How It Works (At a Glance)</h2>
+      <ol>
+        <li><strong>Connect USB</strong> → Use <em>USB Cleaning</em> to remove ghost & dot-files; build backup structure.</li>
+        <li><strong>Open Two Backups</strong> → Source on the left, Destination on the right.</li>
+        <li><strong>Choose Mode</strong> → <span class="pill">Replace</span> (leave source intact) or <span class="pill">Swap</span> (return destination original back to source).</li>
+        <li><strong>Drag & Drop</strong> → Entire banks, single scenes, or groups of scenes — in <em>either direction</em>.</li>
+        <li><strong>Undo</strong> if needed, then <strong>Print</strong> your range or <strong>Export</strong> scenes for sharing.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>Docs, Notes & Videos</h2>
+      <ul>
+        <li><a href="#" onclick="alert('Add your Release Notes/Changelog URL.');return false;">Release Notes</a></li>
+        <li><a href="#" onclick="alert('Add your User Guide URL.');return false;">User Documentation</a></li>
+        <li><a href="#" onclick="alert('Add your Tutorial Videos playlist URL.');return false;">Tutorial Videos</a></li>
+      </ul>
+      <p class="note">Swap the placeholders above with your live links when ready.</p>
+    </section>
+
+    <footer class="foot">
+      <div>
+        <strong>🎼 Greg VEE — V-Music</strong><br />
+        <span class="note">K-Configurator is built by musicians for musicians.</span>
+      </div>
+      <div>
+        <a class="tag" href="#features">Features</a>
+        <a class="tag" href="#mac">macOS</a>
+        <a class="tag" href="#win">Windows</a>
+        <a class="tag" href="#linux">Linux</a>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>

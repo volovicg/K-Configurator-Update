@@ -1,6 +1,6 @@
 {
   "version_win": "5.5.2",
-  "version_mac": "5.4.14",
+  "version_mac": "5.5.4",
   "version_linux": "5.5.1",
   "version": "5.5.1",
   "notes": "*********************\nSept 23rd 2025\nVersion 5.0.x+\n**********************\nNEW!\n* Fixed tree scroll speeds\n* fixed \"_\" issue in riff filenames\n* Added Linux Build",
