@@ -5,18 +5,18 @@
 <link rel="icon" href="image/K-Configurator.png" type="image/png"/>
 
 <style>
-/* Variables are scoped to .page so radios can control them with sibling selectors */
+/* Theme variables scoped to .page so radios can switch via sibling selectors */
 .page{
   --bg:#0b1020;--panel:#121a35;--text:#e6eaf6;--muted:#a9b0c7;
   --brand:#6ec1ff;--brand2:#8af5c8;--border:#1f2a4d;--shadow:0 8px 24px rgba(0,0,0,.35);
   --maxw:1080px;--radius:16px
 }
-/* Light theme when #light is checked */
+/* Light theme */
 #light:checked ~ .page{
   --bg:#ffffff;--panel:#f4f7ff;--text:#0a0f2a;--muted:#49557a;
   --brand:#2563eb;--brand2:#22d3ee;--border:#d9e2ff;--shadow:0 10px 24px rgba(10,30,70,.08)
 }
-/* Midnight theme when #midnight is checked */
+/* Midnight theme */
 #midnight:checked ~ .page{
   --bg:#000309;--panel:#050a1a;--text:#eaf2ff;--muted:#a4afd1;
   --brand:#8b5cf6;--brand2:#22d3ee;--border:#0f1938;--shadow:0 10px 28px rgba(0,0,0,.6)
@@ -28,8 +28,9 @@ body{background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-syste
 a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
 .page{min-height:100%;background:var(--bg);color:var(--text);transition:background-color .25s,color .25s}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:22px}
+.note{color:var(--muted);font-size:14px}
 
-/* Theme toggle (radios hidden, labels styled as buttons) */
+/* Theme toggle (CSS-only radios + labels) */
 .theme-controls{display:flex;gap:8px;margin-left:auto}
 .theme-controls input{position:absolute;left:-9999px}
 .theme-controls label{border:1px solid var(--border);background:var(--panel);color:var(--text);padding:6px 10px;border-radius:10px;cursor:pointer;user-select:none}
@@ -43,7 +44,6 @@ a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
 .top-badge{display:flex;align-items:center;gap:10px;margin-bottom:18px}
 .top-badge img{width:36px;height:36px;border-radius:8px}
 .top-badge strong{font-size:17px}
-.top-badge .note{font-size:14px;color:var(--muted)}
 
 /* HERO */
 .hero{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);background:var(--panel)}
@@ -57,18 +57,23 @@ a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
 .hero h2{margin:4px 0;font-weight:600;color:var(--muted);font-size:clamp(18px,2.3vw,24px)}
 .hero p{margin:6px 0 0;color:var(--muted);max-width:70ch}
 .hero-icons{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;align-items:center;margin-bottom:2px}
-.hero-logo{max-width:120px;border-radius:24px;box-shadow:var(--shadow)}
-/* prevent hero image cropping */
+/* +30% larger icon */
+.hero-logo{max-width:156px;border-radius:24px;box-shadow:var(--shadow)}
+/* +30% larger & avoid cropping */
 .hero-thumb{
-  width:160px;max-width:35vw;border-radius:12px;border:1px solid var(--border);box-shadow:var(--shadow);
+  width:208px;max-width:45vw;border-radius:12px;border:1px solid var(--border);box-shadow:var(--shadow);
   object-fit:contain;background:rgba(255,255,255,.03)
 }
-.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px;justify-content:center}
-.btn{display:inline-flex;gap:10px;align-items:center;justify-content:center;min-width:220px;min-height:48px;
-  padding:12px 16px;border-radius:12px;background:linear-gradient(180deg,var(--brand),var(--brand2));
-  color:#001018;font-weight:700;box-shadow:var(--shadow)}
 
-/* CARDS, GRIDS */
+/* Primary CTA: uniform size */
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px;justify-content:center}
+.btn{
+  display:inline-flex;gap:10px;align-items:center;justify-content:center;
+  min-width:220px;min-height:48px;padding:12px 16px;border-radius:12px;
+  background:linear-gradient(180deg,var(--brand),var(--brand2));color:#001018;font-weight:700;box-shadow:var(--shadow)
+}
+
+/* LAYOUT */
 section{margin:28px 0}
 .card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
 h2{margin:0 0 8px;font-size:clamp(20px,2.4vw,28px)}
@@ -76,20 +81,8 @@ ul{margin:6px 0 0 18px;padding:0}
 li{margin:6px 0}
 .grid{display:grid;gap:18px}
 @media(min-width:900px){.cols-3{grid-template-columns:repeat(3,1fr)} .cols-2{grid-template-columns:repeat(2,1fr)} .cols-3xl{grid-template-columns:repeat(3,1fr)}}
-.note{color:var(--muted);font-size:14px}
 
-/* Figures */
-.figure{
-  display:flex;flex-direction:column;height:100%;border-radius:12px;overflow:hidden;border:1px solid var(--border);
-  box-shadow:var(--shadow);background:rgba(255,255,255,.02);margin:0
-}
-/* avoid cropping: show entire image inside card */
-.figure img{
-  width:100%;height:280px;display:block;margin:0;object-fit:contain;background:rgba(255,255,255,.02)
-}
-.figcap{font-size:13px;color:var(--muted);padding:6px 8px;background:rgba(0,0,0,.05);margin:0}
-
-/* Do cards */
+/* WHAT YOU CAN DO (cards) */
 .do-grid{display:grid;gap:14px}
 @media(min-width:900px){.do-grid{grid-template-columns:repeat(3,1fr)}}
 .do-card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:14px 14px 12px;box-shadow:var(--shadow);display:flex;gap:12px;align-items:flex-start}
@@ -97,14 +90,24 @@ li{margin:6px 0}
 .do-card h4{margin:2px 0 6px;font-size:16px}
 .do-card p{margin:0;font-size:14px;color:var(--muted)}
 
-/* Footer */
+/* GALLERY FIGURES — avoid cropping */
+.figure{
+  display:flex;flex-direction:column;height:100%;border-radius:12px;overflow:hidden;border:1px solid var(--border);
+  box-shadow:var(--shadow);background:rgba(255,255,255,.02);margin:0
+}
+.figure img{
+  width:100%;height:280px;display:block;margin:0;object-fit:contain;background:rgba(255,255,255,.02)
+}
+.figcap{font-size:13px;color:var(--muted);padding:6px 8px;background:rgba(0,0,0,.05);margin:0}
+
+/* FOOTER */
 .foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;border-top:1px solid var(--border);padding:14px 0 0;margin-top:20px}
 .foot .badge{display:flex;align-items:center;gap:10px}
 .foot .badge img{width:34px;height:34px;border-radius:8px}
 </style>
 </head>
 <body>
-<!-- Radio toggles (no JS). Keep "dark" checked by default -->
+<!-- Radio toggles (no JS). Keep "dark" default as in your current file -->
 <input type="radio" name="theme" id="dark" checked hidden>
 <input type="radio" name="theme" id="light" hidden>
 <input type="radio" name="theme" id="midnight" hidden>
@@ -112,10 +115,11 @@ li{margin:6px 0}
 <div class="page">
   <div class="wrap">
 
+    <!-- TOP BADGE -->
     <div class="top-badge">
       <img src="image/K-Configurator.png" alt="K-Configurator badge"/>
       <div>
-        <strong>🎼 Greg VEE — V-Music</strong><br/>
+        <strong>🎼 Greg Vee — V-Music</strong><br/>
         <a class="note" href="mailto:korg.fisa.suprema@gmail.com">korg.fisa.suprema@gmail.com</a>
       </div>
       <div class="theme-controls" role="group" aria-label="Theme">
@@ -125,6 +129,7 @@ li{margin:6px 0}
       </div>
     </div>
 
+    <!-- HERO -->
     <header class="hero" id="top">
       <div class="hero-top">
         <div class="hero-icons">
@@ -142,6 +147,7 @@ li{margin:6px 0}
       </div>
     </header>
 
+    <!-- CORE FEATURES -->
     <section id="features" class="grid cols-2">
       <div class="card">
         <h2>Core Features (All Platforms)</h2>
@@ -168,10 +174,10 @@ li{margin:6px 0}
           <li><strong>Premium Libraries</strong> — Unlock pro-grade sound libraries (e.g., <em>Richard Noel</em>) in-app.</li>
           <li><strong>Future Content</strong> — New high-quality libraries from artists worldwide.</li>
         </ul>
-        <!-- removed the About/activation sentence -->
       </div>
     </section>
 
+    <!-- WHAT YOU CAN DO -->
     <section class="card" id="what-you-can-do">
       <h2>What can you do with the K-Configurator?</h2>
       <div class="do-grid">
@@ -191,8 +197,8 @@ li{margin:6px 0}
         </div></div>
 
         <div class="do-card"><div class="do-num">4</div><div>
-          <h4>Transfer & version your backups</h4>
-          <p>Connect <strong>two USBs</strong> for bi-directional moves from one USB to another. Create multiple backup files across drives — each one a different version of your Korg programming.</p>
+          <h4>Visualize & move between backups</h4>
+          <p>Visualize two backups and move scenes and/or banks from one backup to another easily. Create instant backup copies for duplication or saving.</p>
         </div></div>
 
         <div class="do-card"><div class="do-num">5</div><div>
@@ -207,13 +213,14 @@ li{margin:6px 0}
       </div>
     </section>
 
+    <!-- PLATFORM CARDS -->
     <section class="grid cols-3">
       <div class="card" id="mac">
         <h2>macOS</h2>
         <ul>
           <li><strong>Universal Binary</strong> — runs on Intel (x86_64) and Apple Silicon (ARM64).</li>
           <li>Fully signed & notarized for macOS Sequoia 15.x+.</li>
-          <!-- removed 3rd bullet per request -->
+          <!-- (Removed prior 3rd bullet per your request) -->
         </ul>
         <p><a class="btn" href="https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg">Install on macOS</a></p>
         <p class="note">Min: macOS 15 or later, 8GB RAM, USB port.</p>
@@ -225,7 +232,7 @@ li{margin:6px 0}
           <li>Signed installer for Windows 10/11 (x64).</li>
           <li><strong>FAT32 formatting up to 256GB</strong>.</li>
           <li>Includes required VC++ runtimes.</li>
-          <!-- removed last bullet per request -->
+          <!-- (Removed last bullet per your request) -->
         </ul>
         <p><a class="btn" href="https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe">Install on Windows</a></p>
         <p class="note">Min: Windows 10 x64, 8GB RAM, USB port.</p>
@@ -236,41 +243,47 @@ li{margin:6px 0}
         <ul>
           <li>Portable AppImage for <strong>x86_64</strong> systems.</li>
           <li>Tested on Ubuntu <strong>24.04+</strong> (glibc <strong>≥ 2.38</strong>).</li>
-          <!-- removed last bullet per request -->
+          <!-- (Removed last bullet per your request) -->
         </ul>
         <p><a class="btn" href="https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage">Download for Linux</a></p>
         <p class="note">Compatible with Ubuntu, Fedora, Debian, Arch, openSUSE. 8GB RAM, USB port recommended.</p>
       </div>
     </section>
 
+    <!-- GALLERY -->
     <section class="grid cols-3xl" aria-label="K-Configurator gallery">
       <figure class="figure">
         <img loading="lazy" src="image/mainscreen.png" alt="K-Configurator Main Screen"/>
         <figcaption class="figcap">Main Screen — detect and format USB, install libraries.</figcaption>
       </figure>
+
       <figure class="figure">
         <img loading="lazy" src="image/K-Configurator.png" alt="K-Configurator App Icon"/>
         <figcaption class="figcap">K-Configurator App Icon.</figcaption>
       </figure>
+
       <figure class="figure">
         <img loading="lazy" src="image/pdfprint.png" alt="K-Configurator PDF Print Layout"/>
         <figcaption class="figcap">Professional print layout of Banks & Scenes.</figcaption>
       </figure>
+
       <figure class="figure">
         <img loading="lazy" src="image/Dual Tress.png" alt="K-Configurator Dual Tree View"/>
         <figcaption class="figcap">Dual-Tree View — manage backups side by side.</figcaption>
       </figure>
+
       <figure class="figure">
         <img loading="lazy" src="image/pricing.png" alt="K-Configurator Subscription and Pricing"/>
         <figcaption class="figcap">Free trial, subscription, and premium library details.</figcaption>
       </figure>
     </section>
 
+    <!-- FOOTER -->
     <footer class="foot">
       <div class="badge">
         <img src="image/K-Configurator.png" alt="K-Configurator badge"/>
         <div>
-          <strong>🎼 Greg VEE — V-Music</strong><br/>
+          <strong>🎼 Greg Vee — V-Music</strong><br/>
           <a class="note" href="mailto:korg.fisa.suprema@gmail.com">korg.fisa.suprema@gmail.com</a>
         </div>
       </div>
