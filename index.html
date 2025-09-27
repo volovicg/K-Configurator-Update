@@ -1,1 +1,258 @@
-K-Configurator Site.
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>K-Configurator — Companion App for Korg Fisa Suprema (No-JS Theme Toggle)</title>
+<link rel="icon" href="image/K-Configurator.png" type="image/png"/>
+
+<style>
+/* Variables are scoped to .page so radios can control them with sibling selectors */
+.page{
+  --bg:#0b1020;--panel:#121a35;--text:#e6eaf6;--muted:#a9b0c7;
+  --brand:#6ec1ff;--brand2:#8af5c8;--border:#1f2a4d;--shadow:0 8px 24px rgba(0,0,0,.35);
+  --maxw:1080px;--radius:16px
+}
+/* Light theme when #light is checked */
+#light:checked ~ .page{
+  --bg:#ffffff;--panel:#f4f7ff;--text:#0a0f2a;--muted:#49557a;
+  --brand:#2563eb;--brand2:#22d3ee;--border:#d9e2ff;--shadow:0 10px 24px rgba(10,30,70,.08)
+}
+/* Midnight theme when #midnight is checked */
+#midnight:checked ~ .page{
+  --bg:#000309;--panel:#050a1a;--text:#eaf2ff;--muted:#a4afd1;
+  --brand:#8b5cf6;--brand2:#22d3ee;--border:#0f1938;--shadow:0 10px 28px rgba(0,0,0,.6)
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Inter,Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
+.page{min-height:100%;background:var(--bg);color:var(--text);transition:background-color .25s,color .25s}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:22px}
+
+/* Theme toggle (radios hidden, labels styled as buttons) */
+.theme-controls{display:flex;gap:8px;margin-left:auto}
+.theme-controls input{position:absolute;left:-9999px}
+.theme-controls label{border:1px solid var(--border);background:var(--panel);color:var(--text);padding:6px 10px;border-radius:10px;cursor:pointer;user-select:none}
+#dark:checked ~ .page .lbl-dark,
+#light:checked ~ .page .lbl-light,
+#midnight:checked ~ .page .lbl-midnight{
+  background:linear-gradient(180deg,var(--brand),var(--brand2));color:#001018;border-color:transparent
+}
+
+/* TOP BAR */
+.top-badge{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+.top-badge img{width:36px;height:36px;border-radius:8px}
+.top-badge strong{font-size:17px}
+.top-badge .note{font-size:14px;color:var(--muted)}
+
+/* HERO */
+.hero{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);background:var(--panel)}
+.hero-top{display:grid;gap:12px;padding:26px;grid-template-columns:1fr;align-items:center;justify-items:center;text-align:center;background:
+  radial-gradient(1000px 420px at 10% -10%, rgba(110,193,255,.20), transparent 60%),
+  radial-gradient(700px 300px at 90% -10%, rgba(138,245,200,.18), transparent 60%)}
+.hero h1{margin:8px 0 0;font-size:clamp(32px,4.6vw,52px);line-height:1.1}
+.hero h2{margin:4px 0;font-weight:600;color:var(--muted);font-size:clamp(18px,2.3vw,24px)}
+.hero p{margin:6px 0 0;color:var(--muted);max-width:70ch}
+.hero-icons{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;align-items:center;margin-bottom:2px}
+.hero-logo{max-width:120px;border-radius:24px;box-shadow:var(--shadow)}
+.hero-thumb{width:160px;max-width:35vw;border-radius:12px;border:1px solid var(--border);box-shadow:var(--shadow)}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px;justify-content:center}
+.btn{display:inline-flex;gap:10px;align-items:center;padding:12px 16px;border-radius:12px;background:linear-gradient(180deg,var(--brand),var(--brand2));color:#001018;font-weight:700;box-shadow:var(--shadow)}
+
+/* CARDS, GRIDS */
+section{margin:28px 0}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
+h2{margin:0 0 8px;font-size:clamp(20px,2.4vw,28px)}
+ul{margin:6px 0 0 18px;padding:0}
+li{margin:6px 0}
+.grid{display:grid;gap:18px}
+@media(min-width:900px){.cols-3{grid-template-columns:repeat(3,1fr)} .cols-2{grid-template-columns:repeat(2,1fr)} .cols-3xl{grid-template-columns:repeat(3,1fr)}}
+.note{color:var(--muted);font-size:14px}
+
+/* Figures */
+.figure{display:flex;flex-direction:column;height:100%;border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:var(--shadow);background:rgba(255,255,255,.02);margin:0}
+.figure img{width:100%;display:block;margin:0;flex-grow:1;object-fit:cover}
+.figcap{font-size:13px;color:var(--muted);padding:6px 8px;background:rgba(0,0,0,.05);margin:0}
+
+/* Do cards */
+.do-grid{display:grid;gap:14px}
+@media(min-width:900px){.do-grid{grid-template-columns:repeat(3,1fr)}}
+.do-card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:14px 14px 12px;box-shadow:var(--shadow);display:flex;gap:12px;align-items:flex-start}
+.do-num{flex:0 0 30px;height:30px;border-radius:999px;background:linear-gradient(180deg,var(--brand),var(--brand2));color:#001018;font-weight:800;display:flex;align-items:center;justify-content:center}
+.do-card h4{margin:2px 0 6px;font-size:16px}
+.do-card p{margin:0;font-size:14px;color:var(--muted)}
+
+/* Footer */
+.foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;border-top:1px solid var(--border);padding:14px 0 0;margin-top:20px}
+.foot .badge{display:flex;align-items:center;gap:10px}
+.foot .badge img{width:34px;height:34px;border-radius:8px}
+</style>
+</head>
+<body>
+<!-- Radio toggles (no JS). Keep "dark" checked by default -->
+<input type="radio" name="theme" id="dark" checked hidden>
+<input type="radio" name="theme" id="light" hidden>
+<input type="radio" name="theme" id="midnight" hidden>
+
+<div class="page">
+  <div class="wrap">
+
+    <div class="top-badge">
+      <img src="image/K-Configurator.png" alt="K-Configurator badge"/>
+      <div>
+        <strong>🎼 Greg VEE — V-Music</strong><br/>
+        <a class="note" href="mailto:korg.fisa.suprema@gmail.com">korg.fisa.suprema@gmail.com</a>
+      </div>
+      <div class="theme-controls" role="group" aria-label="Theme">
+        <label for="dark" class="lbl-dark">🌙</label>
+        <label for="light" class="lbl-light">☀️</label>
+        <label for="midnight" class="lbl-midnight">🌌</label>
+      </div>
+    </div>
+
+    <header class="hero" id="top">
+      <div class="hero-top">
+        <div class="hero-icons">
+          <img src="image/K-Configurator.png" alt="K-Configurator icon" class="hero-logo"/>
+          <img src="image/mainscreen.png" alt="K-Configurator main screen thumbnail" class="hero-thumb"/>
+        </div>
+        <h1>K-Configurator</h1>
+        <h2 style="text-align:center;">Companion App for Korg Fisa Suprema<br/>Seamlessly installs the Richard Noel Sounds — Banks/Scenes</h2>
+        <p>Clean USBs, organize banks & scenes, perform bi-directional moves (entire banks, single scenes, or groups), choose Replace or Swap with Undo, print ranges, export, and unlock premium libraries. Cross-platform for macOS, Windows, and Linux — with a 14-day free trial.</p>
+        <nav class="cta" aria-label="Primary actions">
+          <a class="btn" href="https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg">⬇ Download for macOS</a>
+          <a class="btn" href="https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe">⬇ Download for Windows</a>
+          <a class="btn" href="https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage">⬇ Download for Linux</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="features" class="grid cols-2">
+      <div class="card">
+        <h2>Core Features (All Platforms)</h2>
+        <ul>
+          <li><strong>USB Cleaning</strong> — Removes hidden dot-files and resource-fork “ghost” files so your instrument reads the drive cleanly.</li>
+          <li><strong>Drive Prep</strong> — Build the correct folder structure for backups instantly.</li>
+          <li><strong>Tree Management</strong> — 100 banks per backup (00–99), each with scenes A–F.</li>
+          <li><strong>Dual-Tree View</strong> — Work with <em>source</em> and <em>destination</em> side-by-side.</li>
+          <li><strong>Bi-Directional Moves</strong> — Drag banks/scenes either direction between trees.</li>
+          <li><strong>Granular Control</strong> — Move an entire bank, a single scene, or selected groups of scenes anywhere.</li>
+          <li><strong>Replace vs Swap</strong>: Replace leaves source untouched; Swap returns destination’s original to source.</li>
+          <li><strong>Undo</strong> — Instantly roll back your last operation.</li>
+          <li><strong>Printing</strong> — Print the full tree or a bank range (e.g., 1–20) with crisp, high-contrast output.</li>
+          <li><strong>Bulk Export</strong> — Convert batches of <code>.rif</code> → <code>.sca</code> without prompts.</li>
+          <li><strong>Selective Restore</strong> — Import whole archives or specific banks only.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Try, Subscribe, Expand</h2>
+        <ul>
+          <li><strong>14-Day Free Trial</strong> — Explore everything before committing.</li>
+          <li><strong>In-App Purchases & Subscriptions</strong> — Secure via <strong>PayPal</strong>.</li>
+          <li><strong>Premium Libraries</strong> — Unlock pro-grade sound libraries (e.g., <em>Richard Noel</em>) in-app.</li>
+          <li><strong>Future Content</strong> — New high-quality libraries from artists worldwide.</li>
+        </ul>
+        <p class="note">Manage activation, trial status, and licenses in the app’s About section.</p>
+      </div>
+    </section>
+
+    <section class="card" id="what-you-can-do">
+      <h2>What can you do with the K-Configurator?</h2>
+      <div class="do-grid">
+        <div class="do-card"><div class="do-num">1</div><div>
+          <h4>Purchase & install premium programming</h4>
+          <p>Use <strong>PayPal</strong> to purchase and download <strong>Richard Noel</strong> programming right in the app — with more pro libraries coming as they become available.</p>
+        </div></div>
+
+        <div class="do-card"><div class="do-num">2</div><div>
+          <h4>Reorganize banks & scenes for your gigs</h4>
+          <p>Reorganize, rename, move, or <strong>print</strong> banks and scenes from your FISA backup. Planning an <em>Oktoberfest</em>? Move entire banks for quick access and tweak scenes inside banks. Print your Banks & Scenes for a handy stage reference.</p>
+        </div></div>
+
+        <div class="do-card"><div class="do-num">3</div><div>
+          <h4>Format & clean USB drives the right way</h4>
+          <p>Format flash drives to <strong>FAT-32</strong> (as required by Korg) and <strong>clean</strong> “ghost” dot-files that cause confusion. K-Configurator can even format larger USB drives (&gt;32GB) that normally wouldn’t operate in the accordion.</p>
+        </div></div>
+
+        <div class="do-card"><div class="do-num">4</div><div>
+          <h4>Transfer & version your backups</h4>
+          <p>Connect <strong>two USBs</strong> for bi-directional moves from one USB to another. Create multiple backup files across drives — each one a different version of your Korg programming.</p>
+        </div></div>
+
+        <div class="do-card"><div class="do-num">5</div><div>
+          <h4>Get updates for your purchased banks</h4>
+          <p>If you purchased FISA banks & scenes through <strong>V-Music</strong>, you’ll receive <strong>updates</strong> via K-Configurator.</p>
+        </div></div>
+
+        <div class="do-card"><div class="do-num">6</div><div>
+          <h4>Learn from expert resources</h4>
+          <p>Access curated tips and informational resources to get the most out of your FISA.</p>
+        </div></div>
+      </div>
+    </section>
+
+    <section class="grid cols-3">
+      <div class="card" id="mac">
+        <h2>macOS</h2>
+        <ul>
+          <li><strong>Universal Binary</strong> — runs on Intel (x86_64) and Apple Silicon (ARM64).</li>
+          <li>Fully signed & notarized for macOS Sequoia 15.x+.</li>
+          <li>USB cleaning, dual-tree editing, print ranges, export supported.</li>
+        </ul>
+        <p><a class="btn" href="https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg">Install on macOS</a></p>
+        <p class="note">Min: macOS 15 or later, 8GB RAM, USB port.</p>
+      </div>
+
+      <div class="card" id="win">
+        <h2>Windows</h2>
+        <ul>
+          <li>Signed installer for Windows 10/11 (x64).</li>
+          <li><strong>FAT32 formatting up to 256GB</strong> + exFAT support.</li>
+          <li>Includes required VC++ runtimes.</li>
+          <li>Full bi-directional moves, Replace/Swap, and Undo.</li>
+        </ul>
+        <p><a class="btn" href="https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe">Install on Windows</a></p>
+        <p class="note">Min: Windows 10 x64, 8GB RAM, USB port.</p>
+      </div>
+
+      <div class="card" id="linux">
+        <h2>Linux</h2>
+        <ul>
+          <li>Portable AppImage for <strong>x86_64</strong> systems.</li>
+          <li>Tested on Ubuntu 22.04+ (glibc ≥ 2.35).</li>
+          <li>Dual-tree editing, printing, export supported.</li>
+        </ul>
+        <p><a class="btn" href="https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage">Download for Linux</a></p>
+        <p class="note">Compatible with Ubuntu, Fedora, Debian, Arch, openSUSE. 8GB RAM, USB port recommended.</p>
+      </div>
+    </section>
+
+    <section class="grid cols-3xl" aria-label="K-Configurator gallery">
+      <figure class="figure"><img loading="lazy" src="image/mainscreen.png" alt="K-Configurator Main Screen"/><figcaption class="figcap">Main Screen — detect and format USB, install libraries.</figcaption></figure>
+      <figure class="figure"><img loading="lazy" src="image/K-Configurator.png" alt="K-Configurator App Icon"/><figcaption class="figcap">K-Configurator App Icon.</figcaption></figure>
+      <figure class="figure"><img loading="lazy" src="image/pdfprint.png" alt="K-Configurator PDF Print Layout"/><figcaption class="figcap">Professional print layout of Banks & Scenes.</figcaption></figure>
+      <figure class="figure"><img loading="lazy" src="image/Dual Tress.png" alt="K-Configurator Dual Tree View"/><figcaption class="figcap">Dual-Tree View — manage backups side by side.</figcaption></figure>
+      <figure class="figure"><img loading="lazy" src="image/pricing.png" alt="K-Configurator Subscription and Pricing"/><figcaption class="figcap">Free trial, subscription, and premium library details.</figcaption></figure>
+    </section>
+
+    <footer class="foot">
+      <div class="badge">
+        <img src="image/K-Configurator.png" alt="K-Configurator badge"/>
+        <div>
+          <strong>🎼 Greg VEE — V-Music</strong><br/>
+          <a class="note" href="mailto:korg.fisa.suprema@gmail.com">korg.fisa.suprema@gmail.com</a>
+        </div>
+      </div>
+      <div>
+        <a class="note" href="#what-you-can-do">What you can do</a> ·
+        <a class="note" href="#features">Features</a> ·
+        <a class="note" href="#mac">macOS</a> ·
+        <a class="note" href="#win">Windows</a> ·
+        <a class="note" href="#linux">Linux</a>
+      </div>
+    </footer>
+
+  </div>
+</div>
+</body></html>
