@@ -86,8 +86,8 @@ li{margin:6px 0}
 .figure{display:flex;flex-direction:column;border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:var(--shadow);background:rgba(255,255,255,.02)}
 .figure img{
   width:100%;
-  height:auto;           /* natural aspect ratio */
-  object-fit:contain;    /* no cropping */
+  height:auto;
+  object-fit:contain;
   display:block;
   margin:0 auto;
   background:var(--panel);
@@ -175,7 +175,6 @@ li{margin:6px 0}
         </ul>
       </div>
     </section>
-
     <section class="card" id="what-you-can-do">
       <h2>What can you do with the K-Configurator?</h2>
       <div class="do-grid">
@@ -243,5 +242,51 @@ li{margin:6px 0}
         <p class="note">Compatible with Ubuntu, Fedora, Debian, Arch, openSUSE. 8GB RAM, USB port recommended.</p>
       </div>
     </section>
+    <section class="grid cols-3xl" aria-label="K-Configurator gallery">
+      <figure class="figure">
+        <img loading="lazy" src="image/mainscreen.png" alt="K-Configurator Main Screen"/>
+        <figcaption class="figcap">Main Screen — detect and format USB, install libraries.</figcaption>
+      </figure>
 
-    <section class="grid cols-3xl
+      <figure class="figure">
+        <img loading="lazy" src="image/K-Configurator.png" alt="K-Configurator App Icon"/>
+        <figcaption class="figcap">K-Configurator App Icon.</figcaption>
+      </figure>
+
+      <figure class="figure">
+        <img loading="lazy" src="image/pdfprint.png" alt="K-Configurator PDF Print Layout"/>
+        <figcaption class="figcap">Professional print layout of Banks & Scenes.</figcaption>
+      </figure>
+
+      <figure class="figure">
+        <img loading="lazy" src="image/Dual Tress.png" alt="K-Configurator Dual Tree View"/>
+        <figcaption class="figcap">Dual-Tree View — manage backups side by side.</figcaption>
+      </figure>
+
+      <figure class="figure">
+        <img loading="lazy" src="image/pricing.png" alt="K-Configurator Subscription and Pricing"/>
+        <figcaption class="figcap">Free trial, subscription, and premium library details.</figcaption>
+      </figure>
+    </section>
+
+    <footer class="foot">
+      <div class="badge">
+        <img src="image/K-Configurator.png" alt="K-Configurator badge"/>
+        <div>
+          <strong>🎼 Greg Vee — V-Music</strong><br/>
+          <a class="note" href="mailto:korg.fisa.suprema@gmail.com">korg.fisa.suprema@gmail.com</a>
+        </div>
+      </div>
+      <div>
+        <a class="note" href="#what-you-can-do">What you can do</a> ·
+        <a class="note" href="#features">Features</a> ·
+        <a class="note" href="#mac">macOS</a> ·
+        <a class="note" href="#win">Windows</a> ·
+        <a class="note" href="#linux">Linux</a>
+      </div>
+    </footer>
+
+  </div>
+</div>
+</body>
+</html>
