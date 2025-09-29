@@ -1,9 +1,9 @@
 {
-  "version_win": "5.6.1",
-  "version_mac": "5.6.2",
+  "version_win": "6.0.3",
+  "version_mac": "6.0.1",
   "version_linux": "5.6.1",
   "version": "5.6.1",
-  "notes": "*********************\nSept 28th 2025\nVersion 5.6.x+\n**********************\nNEW!\n* MAJOR! fixed drag/drop banks/scenes\n* Fixed tree scroll speeds\n* fixed \"_\" issue in riff filenames",
+  "notes": "Sept 29th 2025\nVersion 6.0+\n**********************\nNEW!\n* Added filename normalize process\n* Capped filenames to 24 char\n* Added swap capability\n*********************",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
