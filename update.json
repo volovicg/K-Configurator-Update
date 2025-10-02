@@ -1,7 +1,7 @@
 {
   "version_win": "6.3.1",
   "version_mac": "6.3.2",
-  "version_linux": "5.6.1",
+  "version_linux": "6.3.1",
   "version": "5.6.1",
   "notes": "Sept 29th 2025\nVersion 6.0+\n**********************\nNEW!\n* Minor update to RN Sounds 9-29-25\n* Added filename normalize process\n* Capped filenames to 24 char\n* Added swap capability",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
