@@ -5,26 +5,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>K-Configurator — Companion App for Korg Fisa Suprema (No-JS Theme Toggle)</title>
 
+<!-- Canonical -->
+<link rel="canonical" href="https://volovicg.github.io/K-Configurator-Update/"/>
+
 <!-- Favicons -->
 <link rel="icon" href="image/K-Configurator.png" type="image/png"/>
 
-<!-- OpenGraph / Twitter for link previews -->
+<!-- OpenGraph / Twitter -->
 <meta property="og:title" content="K-Configurator — Companion App for the KORG FISA SUPREMA" />
 <meta property="og:description" content="Organize banks & scenes, move between backups, print ranges, clean USBs, and unlock premium libraries. Cross-platform with a 14-day free trial." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://volovicg.github.io/K-Configurator-Update/" />
 <meta property="og:site_name" content="K-Configurator" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:image" content="https://volovicg.github.io/K-Configurator-Update/image/K-Configurator.png?v=2" />
+
+<!-- Primary image (cache-busted) -->
+<meta property="og:image" content="https://volovicg.github.io/K-Configurator-Update/image/K-Configurator.png?v=3" />
+<meta property="og:image:secure_url" content="https://volovicg.github.io/K-Configurator-Update/image/K-Configurator.png?v=3" />
+<meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content="K-Configurator app icon and interface preview" />
+
+<!-- Force FB to refresh cache -->
+<meta property="og:updated_time" content="2025-10-04T15:40:00Z" />
+
+<!-- Facebook App ID -->
 <meta property="fb:app_id" content="773495845554745" />
 
+<!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="K-Configurator — Companion App for the KORG FISA SUPREMA" />
 <meta name="twitter:description" content="Companion App for the Korg FISA SUPREMA. Runs on macOS, Windows, and Linux." />
-<meta name="twitter:image" content="https://volovicg.github.io/K-Configurator-Update/image/K-Configurator.png?v=2" />
+<meta name="twitter:image" content="https://volovicg.github.io/K-Configurator-Update/image/K-Configurator.png?v=3" />
 <meta name="twitter:image:alt" content="K-Configurator app icon and interface preview" />
 
 <style>
@@ -34,25 +47,20 @@
   --brand:#6ec1ff;--brand2:#8af5c8;--border:#1f2a4d;--shadow:0 8px 24px rgba(0,0,0,.35);
   --maxw:1080px;--radius:16px
 }
-/* Light theme */
 #light:checked ~ .page{
   --bg:#ffffff;--panel:#f4f7ff;--text:#0a0f2a;--muted:#49557a;
   --brand:#2563eb;--brand2:#22d3ee;--border:#d9e2ff;--shadow:0 10px 24px rgba(10,30,70,.08)
 }
-/* Midnight theme */
 #midnight:checked ~ .page{
   --bg:#000309;--panel:#050a1a;--text:#eaf2ff;--muted:#a4afd1;
   --brand:#8b5cf6;--brand2:#22d3ee;--border:#0f1938;--shadow:0 10px 28px rgba(0,0,0,.6)
 }
-
 *{box-sizing:border-box}
 html,body{margin:0;height:100%}
 body{background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Inter,Roboto,Helvetica,Arial,sans-serif}
 a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
 .page{min-height:100%;background:var(--bg);color:var(--text);transition:background-color .25s,color .25s}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:22px}
-
-/* Theme toggle */
 .theme-controls{display:flex;gap:8px;margin-left:auto}
 .theme-controls input{position:absolute;left:-9999px}
 .theme-controls label{border:1px solid var(--border);background:var(--panel);color:var(--text);padding:6px 10px;border-radius:10px;cursor:pointer;user-select:none}
@@ -61,14 +69,10 @@ a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
 #midnight:checked ~ .page .lbl-midnight{
   background:linear-gradient(180deg,var(--brand),var(--brand2));color:#001018;border-color:transparent
 }
-
-/* TOP BAR */
 .top-badge{display:flex;align-items:center;gap:10px;margin-bottom:18px}
 .top-badge img{width:36px;height:36px;border-radius:8px}
 .top-badge strong{font-size:17px}
 .top-badge .note{font-size:14px;color:var(--muted)}
-
-/* HERO */
 .hero{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);background:var(--panel)}
 .hero-top{display:grid;gap:12px;padding:26px;grid-template-columns:1fr;align-items:center;justify-items:center;text-align:center;background:
   radial-gradient(1000px 420px at 10% -10%, rgba(110,193,255,.20), transparent 60%),
@@ -81,8 +85,6 @@ a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
 .hero-thumb{width:208px;max-width:40vw;border-radius:12px;border:1px solid var(--border);box-shadow:var(--shadow)}
 .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px;justify-content:center}
 .btn{display:inline-flex;gap:10px;align-items:center;justify-content:center;min-width:240px;padding:14px 20px;border-radius:12px;background:linear-gradient(180deg,var(--brand),var(--brand2));color:#001018;font-weight:700;box-shadow:var(--shadow);text-align:center}
-
-/* CARDS, GRIDS */
 section{margin:28px 0}
 .card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
 h2{margin:0 0 8px;font-size:clamp(20px,2.4vw,28px)}
@@ -91,28 +93,15 @@ li{margin:6px 0}
 .grid{display:grid;gap:18px}
 @media(min-width:900px){.cols-3{grid-template-columns:repeat(3,1fr)} .cols-2{grid-template-columns:repeat(2,1fr)} .cols-3xl{grid-template-columns:repeat(3,1fr)}}
 .note{color:var(--muted);font-size:14px}
-
-/* Figures (Gallery) */
 .figure{display:flex;flex-direction:column;border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:var(--shadow);background:rgba(255,255,255,.02)}
-.figure img{
-  width:100%;
-  height:auto;
-  object-fit:contain;
-  display:block;
-  margin:0 auto;
-  background:var(--panel);
-}
+.figure img{width:100%;height:auto;object-fit:contain;display:block;margin:0 auto;background:var(--panel)}
 .figcap{font-size:13px;color:var(--muted);padding:6px 8px;background:rgba(0,0,0,.05)}
-
-/* Do cards */
 .do-grid{display:grid;gap:14px}
 @media(min-width:900px){.do-grid{grid-template-columns:repeat(3,1fr)}}
 .do-card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:14px 14px 12px;box-shadow:var(--shadow);display:flex;gap:12px;align-items:flex-start}
 .do-num{flex:0 0 30px;height:30px;border-radius:999px;background:linear-gradient(180deg,var(--brand),var(--brand2));color:#001018;font-weight:800;display:flex;align-items:center;justify-content:center}
 .do-card h4{margin:2px 0 6px;font-size:16px}
 .do-card p{margin:0;font-size:14px;color:var(--muted)}
-
-/* Footer */
 .foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;border-top:1px solid var(--border);padding:14px 0 0;margin-top:20px}
 .foot .badge{display:flex;align-items:center;gap:10px}
 .foot .badge img{width:34px;height:34px;border-radius:8px}
@@ -157,7 +146,7 @@ li{margin:6px 0}
       </div>
     </header>
 
-    <!-- Rest of your sections (features, gallery, footer, etc.) go here -->
+    <!-- (Your remaining sections go here) -->
 
   </div>
 </div>
