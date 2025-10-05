@@ -1,8 +1,8 @@
 {
-  "version_win": "6.6.1",
-  "version_mac": "6.7.2",
-  "version_linux": "6.6.1",
-  "version": "6.6.1",
+  "version_win": "6.8.2",
+  "version_mac": "6.8.2",
+  "version_linux": "6.8.2",
+  "version": "6.8.2",
   "notes": "October 4th 2025\nVersion 6.6+\n**********************\nNEW!\n* added tooltips\n* added checkbox's for swap & empty on move\n* added valid FN char check\n*********************",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
