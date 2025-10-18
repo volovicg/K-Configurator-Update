@@ -137,15 +137,14 @@ li{margin:6px 0}
         </div>
         <h1>K-Configurator</h1>
         <h2 style="text-align:center;">Companion App for Korg Fisa Suprema<br/>Seamlessly installs the Richard Noel Sounds — Banks/Scenes</h2>
-        <p>Organize banks & scenes, perform bi-directional moves (entire banks, single scenes, or groups), choose Replace or Swap with Undo, <strong>clean USBs</strong>, print ranges, export, and unlock premium libraries. Cross-platform for macOS, Windows, and Linux — with a 14-day free trial.</p>
+        <p>Organize banks & scenes, perform bi-directional moves (entire banks, single scenes, or groups), choose Replace or Swap with Undo, <strong>clean USBs</strong>, print ranges, export, and unlock premium libraries. Cross-platform for macOS, Windows, and Linux — Linux by request.</p>
+        <!-- TOP CTA: Linux removed, Mac/Windows centered -->
         <nav class="cta">
           <a class="btn" href="https://tinyurl.com/K-Configurator-MAC4">⬇ Download for macOS</a>
           <a class="btn" href="https://tinyurl.com/K-Configurator-WIN4">⬇ Download for Windows</a>
-          <a class="btn" href="https://tinyurl.com/K-Configurator-Linux">⬇ Download for Linux</a>
         </nav>
       </div>
     </header>
-
 
     <section id="features" class="grid cols-2">
       <div class="card">
@@ -239,8 +238,9 @@ li{margin:6px 0}
           <li>Portable AppImage for <strong>x86_64</strong> systems.</li>
           <li>Tested on Ubuntu 24.04+ (glibc ≥ 2.38).</li>
         </ul>
-        <p><a class="btn" href="https://tinyurl.com/K-Configurator-Linux-beta">Download for Linux</a></p>
-        <p class="note">Compatible with Ubuntu, Fedora, Debian, Arch, openSUSE. 8GB RAM, USB port recommended.</p>
+        <!-- Button intercepted by JS (no file download) -->
+        <p><a class="btn" id="linux-cta" href="https://tinyurl.com/K-Configurator-Linux-beta">Download for Linux</a></p>
+        <p class="note">Linux builds are available by request — please email <a href="mailto:korg.fisa.suprema@gmail.com">korg.fisa.suprema@gmail.com</a>.</p>
       </div>
     </section>
 
@@ -290,5 +290,28 @@ li{margin:6px 0}
 
   </div>
 </div>
+
+<!-- Minimal JS: intercept Linux link and show a popup -->
+<script>
+  (function () {
+    function linuxNotice(e) {
+      if (e) e.preventDefault();
+      var msg = "Linux builds are available by request.\n\n" +
+                "Please contact korg.fisa.suprema@gmail.com.\n\n" +
+                "Open your email app now?";
+      if (confirm(msg)) {
+        window.location.href = "mailto:korg.fisa.suprema@gmail.com?subject=Linux%20AppImage%20request&body=Hi%20Greg,%0A%0APlease%20send%20me%20the%20Linux%20(AppImage)%20build%20of%20K-Configurator.%0A%0AThanks!";
+      }
+      return false;
+    }
+    var linuxBtn = document.getElementById("linux-cta");
+    if (linuxBtn) {
+      linuxBtn.addEventListener("click", linuxNotice);
+      linuxBtn.setAttribute("role","button");
+      linuxBtn.setAttribute("aria-label","Request Linux build by email");
+      linuxBtn.setAttribute("title","Linux builds are available by request");
+    }
+  })();
+</script>
 </body>
 </html>
