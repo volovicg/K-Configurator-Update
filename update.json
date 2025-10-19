@@ -1,6 +1,6 @@
 {
-  "version_win": "6.14.5",
-  "version_mac": "6.14.5",
+  "version_win": "6.14.6",
+  "version_mac": "6.14.6",
   "version_linux": "6.11.2",
   "version": "6.11.2",
   "notes": "October 18th 2025\nVersion 6.13+\n**********************\nNEW!\n* NOEL Library Update 10-18-2025\n* NOEL Update documentation\n* Added Link Tree option\n* Added scrolling with arrow keys",
