@@ -1,6 +1,6 @@
 {
-  "version_win": "8.2.13",
-  "version_mac": "8.2.1",
+  "version_win": "8.3.1",
+  "version_mac": "8.3.1",
   "version_linux": "6.14.4",
   "version": "6.14.4",
   "notes": "November 2nd, 2025\nVersion 8.1+\n**********************\nNEW!\n* Change Free Trial to 28 days\n* Added special scene mode (hidden)\n* Major Code Changes Paypal/Activations\n* Added Support and Preference menus",
