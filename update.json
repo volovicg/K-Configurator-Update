@@ -1,9 +1,9 @@
 {
-  "version_win": "8.4.10",
-  "version_mac": "8.4.12",
+  "version_win": "8.5.15",
+  "version_mac": "8.5.15",
   "version_linux": "6.14.4",
   "version": "6.14.4",
-  "notes": "November 11th, 2025\nVersion 8.4+\n**********************\nNEW!\n* Use Offline 15 days-no wifi needed\n* Change Free Trial to 28 days\n* Added special scene mode (hidden)\n* Major Code Changes Paypal/Activations",
+  "notes": "November 20th, 2025\nVersion 8.5+\n**********************\nNEW!\n* New Noel Library\n* Mandatory Update...lots of changes\n* Added Al Battistelli Sound Library\n* Reliability Improvements Paypal",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
