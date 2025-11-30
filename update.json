@@ -1,9 +1,9 @@
 {
-  "version_win": "8.5.25",
-  "version_mac": "8.5.25",
+  "version_win": "8.5.30",
+  "version_mac": "8.5.30",
   "version_linux": "6.14.4",
   "version": "6.14.4",
-  "notes": "November 28th, 2025\nVersion 8.5.23+\n**********************\nNEW!\n* fixed race condition on startup with trial\n* added print to the scene repository\n* multi-file downloads from repository\n* password on beta",
+  "notes": "November 30th, 2025\nVersion 8.5.30\n**********************\nNEW!\n* Added New User Heartbeat\n* Tree view - list consecutive Empty banks\n* bank view Stability improvements\n* Thank You Roy - Feedback is Awesome!",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
