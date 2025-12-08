@@ -1,6 +1,6 @@
 {
-  "version_win": "8.7.12",
-  "version_mac": "8.7.12",
+  "version_win": "8.7.30",
+  "version_mac": "8.7.30",
   "version_linux": "6.14.4",
   "version": "6.14.4",
   "notes": "December 6th, 2025\nVersion 8.7.12\n**********************\nNEW!\n* fixed a major bug in tree views\n* that could cause  crash/hang\n* fixed paypal purchase bug\n* fixed not activtion workflow",
