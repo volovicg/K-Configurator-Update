@@ -1,6 +1,6 @@
 {
-  "version_win": "8.8.20",
-  "version_mac": "8.8.22",
+  "version_win": "8.8.25",
+  "version_mac": "8.8.25",
   "version_linux": "6.14.4",
   "version": "6.14.4",
   "notes": "December 30th, 2025\nVersion 8.8.21+\n**********************\nNEW!\n* fixed stale scene rename after edit\n* repository window is now modal\n* allow undo after set prefix\n* You can now delete your repository Scene",
