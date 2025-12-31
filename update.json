@@ -1,9 +1,9 @@
 {
-  "version_win": "8.8.25",
-  "version_mac": "8.8.25",
+  "version_win": "8.8.28",
+  "version_mac": "8.8.28",
   "version_linux": "6.14.4",
   "version": "6.14.4",
-  "notes": "December 30th, 2025\nVersion 8.8.21+\n**********************\nNEW!\n* fixed stale scene rename after edit\n* repository window is now modal\n* allow undo after set prefix\n* You can now delete your repository Scene",
+  "notes": "December 31th, 2025\nVersion 8.8.28\n**********************\nNEW!\n* added global scene search:q!\n* allow min/max/close on window\n* fixed stale scene rename after edit\n* repository window is now modal",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
