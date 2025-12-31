@@ -1,9 +1,9 @@
 {
   "version_win": "8.8.20",
-  "version_mac": "8.8.20",
+  "version_mac": "8.8.22",
   "version_linux": "6.14.4",
   "version": "6.14.4",
-  "notes": "December 29th, 2025\nVersion 8.8+\n**********************\nNEW!\n* fixed Windows hang issue.\n* add show duplicates in dual tree\n* added import/export .sca feature\n* Added Progress bars for del/dup backup",
+  "notes": "December 30th, 2025\nVersion 8.8.21+\n**********************\nNEW!\n* fixed stale scene rename after edit\n* repository window is now modal\n* allow undo after set prefix\n* You can now delete your repository Scene",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
