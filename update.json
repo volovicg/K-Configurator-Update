@@ -1,6 +1,6 @@
 {
   "version_win": "8.9.9",
-  "version_mac": "8.9.8",
+  "version_mac": "8.9.12",
   "version_linux": "8.9.9",
   "version": "8.9.9",
   "notes": "Jauary 16th 2026\nVersion 8.9.7+\n**********************\nNEW!\n* added rename to right click menu\n* export/import banks->binary\n* added multi scene selection across banks\n* scenes must be continous without banks",
