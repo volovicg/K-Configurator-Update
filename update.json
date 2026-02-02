@@ -1,6 +1,6 @@
 {
-  "version_win": "9.7.40",
-  "version_mac": "9.7.45",
+  "version_win": "9.8.3",
+  "version_mac": "9.8.3",
   "version_linux": "9.7.40",
   "version": "9.7.40",
   "notes": "Feb 1st build2 2026\nVersion 9.7.30+\n**********************\nNEW!\n* Official Release\n* Update Noel Sound Library 1/27/26\n* Support 8x/4x/Evo (Password access)\n* Shared Repository Roland",
@@ -9,7 +9,7 @@
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "version_beta_win": "9.8.1",
-  "version_beta_mac": "9.8.22",
+  "version_beta_mac": "9.8.24",
   "version_beta_linux": "9.8.1",
   "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-beta.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.dmg",
