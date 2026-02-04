@@ -1,6 +1,6 @@
 {
   "version_win": "9.9.1",
-  "version_mac": "9.9.2",
+  "version_mac": "9.9.3",
   "version_linux": "9.7.40",
   "version": "9.7.40",
   "notes": "Feb 1st build2 2026\nVersion 9.7.30+\n**********************\nNEW!\n* Official Release\n* Update Noel Sound Library 1/27/26\n* Support 8x/4x/Evo (Password access)\n* Shared Repository Roland",
