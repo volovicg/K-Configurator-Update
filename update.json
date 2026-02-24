@@ -1,6 +1,6 @@
 {
   "version_win": "9.22.2",
-  "version_mac": "9.21.8",
+  "version_mac": "9.22.2",
   "version_linux": "9.22.2",
   "version": "9.22.2",
   "notes": "Feb 24th  2026\nVersion 9.22.x\n**********************\nNEW!\n* Added filename bank display on .UPB import (RK)\n* Now support mult-bank prefix's (RK)\n* Add New Re-Ordered Editor Menu (R)\n* Fixed a multi bank overlaping move issue",
