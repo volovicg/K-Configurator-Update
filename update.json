@@ -1,6 +1,6 @@
 {
-  "version_win": "10.0.3",
-  "version_mac": "10.0.8",
+  "version_win": "10.0.12",
+  "version_mac": "10.0.12",
   "version_linux": "10.0.3",
   "version": "10.0.3",
   "notes": "May 12th 2026\nVersion 10+ (stable) / 10+(beta)\n**********************\nNEW!\n* Ability to drag/drop ext UPL UPG's\nto internal UPG's (R)\n* Continued dev on K-Editor (beta)\n* Many Many changes to Roland Live Editor (R)",
