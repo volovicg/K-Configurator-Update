@@ -1,6 +1,6 @@
 {
   "version_win": "10.5.3",
-  "version_mac": "10.5.19",
+  "version_mac": "10.5.20",
   "version_linux": "10.5.10",
   "version": "10.5.10",
   "notes": "May 31st 2026\nVersion 10.5+ (stable) / 10.7+(beta)\n**********************\nNEW!\n* Improved accuracy of reverb, chorus, and delay type names in Set Common. (R)\n\n* Clearer label for the 2nd Bass MIDI Out control. (R)\n\n* New one-click \"Sync from Accordion\" button on the main screen. (R)\n\n* Smarter handling of multiple launches keeps your edits safe. (R K)\n\n* New master \"Status\" toggle makes Function Switch assignments easier to manage on FR-4x. (R)\n\n* Friendlier feedback when the accordion isn't responding. (R)\n\n* Broader and deeper FR-4x support across MIDI, Layout, and querying. (R)\n\n* New Layout configuration tab for FR-4x. (R)\n\n* New on-hover tooltips show the accordion's LCD short-names for easy cross-reference. (R)\n\n* New MIDI Filters panel for per-section MIDI message control. (R)\n\n* New Expression MIDI Tx panel with per-section toggles. (R)\n\n* New Start/Stop Tx toggle for MIDI clock transmission. (R)\n\n* New Organ Aftertouch Tx toggle (FR-8x). (R)\n\n* Automatic per-model MIDI parameter routing. (R)\n\n* Clearer \"Reed Range\" labeling on bass/chord/freebass editors. (R)\n\n* Consistent naming across all section editors. (R)\n\n* Polished labels and tooltips throughout the FR-Editor. (R)\n\n* More reliable dialog rendering on macOS. (R K)\n\n* More robust build and release pipeline. (R K)\n\n* Stronger protection for your expansion-pack settings. (R)",
