@@ -9,10 +9,10 @@
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "version_beta_win": "10.9.19",
-  "version_beta_mac": "10.9.27",
+  "version_beta_mac": "10.11.1",
   "version_beta_linux": "10.9.14",
   "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.dmg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.AppImage",
-  "notes_beta": "June 6th 2026\nVersion 10.8+ (stable) / 10.9+(beta)\n**********************\nNEW!\n* Fixed several extended Midi Parameters (R)\n* Fixed Freebass Touch extended parameters (R)\n* New Song Link control in the K-Editor — toggle Scene Link, set Volume, and pick the linked song from your USB drive via the new Browse button. Song Link state now shows in the Korg tree nav popup and scene detail window. (K)"
+  "notes_beta": "June 6th 2026\nVersion 10.10+ (stable) / 10.11+(beta)\n**********************\nNEW!\n* Fixed several extended Midi Parameters (R)\n* Fixed Freebass Touch extended parameters (R)\n* New Song Link control in the K-Editor — toggle Scene Link, set Volume, and pick the linked song from your USB drive via the new Browse button. Song Link state now shows in the Korg tree nav popup and scene detail window. (K)\n* Many Improvements and new featues. (R,K)"
 }
