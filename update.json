@@ -1,8 +1,8 @@
 {
   "version_win": "10.12.3",
   "version_mac": "10.12.4",
-  "version_linux": "10.12.2",
-  "version": "10.12.2",
+  "version_linux": "10.12.3",
+  "version": "10.12.3",
   "notes": "June 9th 2026\nVersion 10.12+ (stable) / 10.13+(beta)\n**********************\nNEW!\n* Added ability to set the PowerUpScene, Accordion Mode & Organ mode (K)\n* More Robust Error Checking Live Editor (R)\n* Removed unecessary 4x parameters Live Editor (R)\n* Added import/export .UPG/.UPB to the Live Editor (R)\n* Many Improvements and new featues. (R,K)",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
