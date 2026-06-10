@@ -1,9 +1,9 @@
 {
   "version_win": "10.12.3",
-  "version_mac": "10.12.6",
+  "version_mac": "11.14.1",
   "version_linux": "10.12.4",
   "version": "10.12.4",
-  "notes": "June 9th 2026\nVersion 10.12+ (stable) / 10.13+(beta)\n**********************\nNEW!\n* Added ability to set the PowerUpScene, Accordion Mode & Organ mode (K)\n* More Robust Error Checking Live Editor (R)\n* Removed unecessary 4x parameters Live Editor (R)\n* Added import/export .UPG/.UPB to the Live Editor (R)\n* Many Improvements and new featues. (R,K)",
+  "notes": "June 10th 2026\nVersion 11.14+ (stable) / 11.15+(beta)\n**********************\nNEW!\n* Added Chromatic (button) support for Treble side configuration (R)\n* The \"Drum Tx\" on/off switch now matches the accordion correctly, and is now available for the Orchestra Bass and Orchestra Chord sections. (R)\n* You can now rename your Organ presets directly in the editor. (R)\n* A new \"Effect Pot\" screen lets you choose what the accordion's [EFFECT] knob controls while you play. (R)\n* MIDI Volume, Panpot, Reverb and Chorus now show \"Off\" instead of \"-1\". (R)\n* Plus various small UI fixes and clearer tooltips throughout the editors. (R)",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
