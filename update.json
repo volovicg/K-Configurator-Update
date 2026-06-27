@@ -9,10 +9,10 @@
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "version_beta_win": "12.2.4",
-  "version_beta_mac": "12.2.2",
+  "version_beta_mac": "12.2.4",
   "version_beta_linux": "12.2.1",
   "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.dmg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.AppImage",
-  "notes_beta": "June 19th 2026\nVersion 12.1+ (stable) / 12.2+ (beta)\n**********************\nNEW!\n* Copy and paste a User Program or scene from one slot to another with Ctrl/Cmd+C and Ctrl/Cmd+V. (K,R)\n* Copy a User Program from the bank tree and paste it into the Live Editor — to tweak it and hear it live on the accordion. (R)\n* Copy the program from the Live Editor into any banktree upg — to save your edits. (R)"
+  "notes_beta": "June 27th 2026\nVersion 12.1+ (stable) / 12.2+ (beta)\n**********************\nNEW!\n* Rearchitected the accordion communication protocol — transfers are now more reliable and accurate. (R)\n* Faster bank imports. (R)\n* Ensured round-trip data integrity — programs you copy or import come back exactly as they went in. (R)\n* New active section architecture\n* Copy and paste a User Program or scene from one slot to another with Ctrl/Cmd+C and Ctrl/Cmd+V. (K,R)\n* Copy a User Program from the bank tree and paste it into the Live Editor — to tweak it and hear it live on the accordion. (R)\n* Copy the program from the Live Editor into any banktree upg — to save your edits. (R)"
 }
