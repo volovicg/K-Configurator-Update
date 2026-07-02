@@ -9,10 +9,10 @@
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "version_beta_win": "12.2.15",
-  "version_beta_mac": "12.2.14",
+  "version_beta_mac": "12.2.15",
   "version_beta_linux": "12.2.6",
   "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.dmg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.AppImage",
-  "notes_beta": "June 27th 2026\nVersion 12.1+ (stable) / 12.2+ (beta)\n**********************\nNEW!\n* Rearchitected the accordion communication protocol — transfers are now more reliable and accurate. (R)\n* Faster bank imports. (R)\n* Ensured round-trip data integrity — programs you copy or import come back exactly as they went in. (R)\n* New active section architecture\n* Copy and paste a User Program or scene from one slot to another with Ctrl/Cmd+C and Ctrl/Cmd+V. (K,R)\n* Copy a User Program from the bank tree and paste it into the Live Editor — to tweak it and hear it live on the accordion. (R)\n* Copy the program from the Live Editor into any banktree upg — to save your edits. (R)"
+  "notes_beta": "July 2nd 2026\nVersion 12.1+ (stable) / 12.2+ (beta)\n**********************\nNEW!\n* Maximize your scene volumes on the FISA — right-click a scene (or several) and choose Normalize Volumes to raise everything proportionally so the loudest reaches full, banking headroom back onto the volume wheel while keeping your mix perfectly balanced. (K)\n* Set Editor for .FR8 / .FR4 files — open a saved Set file and edit its registers right on your computer, no accordion needed. (R)\n* Set editing in the Live Editor — read, edit, and write Sets directly on your USB-connected accordion. (R)\n* See your active reeds at a glance — the Accordion, Bass & Chord, and F.Bass sections now show a live register diagram (the classic dot symbol) that updates as you turn reeds on and off. (R)\n* Right-click any section to Enable, Disable, or Layer it — including layering right-hand sounds together (Accordion + Orchestra + Organ) to build combined registrations live. (R)"
 }
