@@ -1,8 +1,8 @@
 {
   "version_win": "12.1.11",
   "version_mac": "12.3.1",
-  "version_linux": "12.1.13",
-  "version": "12.1.13",
+  "version_linux": "12.3.1",
+  "version": "12.3.1",
   "notes": "July 14th 2026\nVersion 12.3+ (stable) / 12.4+ (beta)\n**********************\nNEW!\n* Now available in 8 languages — English, Deutsch, Nederlands, Français, Svenska, Italiano, Português and Русский. (K,R)\n* A new illustrated user manual in the Help menu — web page or PDF, in every language. (R)\n* Send a User Program or a whole bank from the tree to your accordion over the USB cable — no memory stick needed. (R)\n* Receive a User Program or a whole bank from your accordion the same way, straight into the tree. (R)\n* Save any program or bank to a .UPG or .UPB file right from the Live Editor. (R)\n* Open a Set file (.FR4 / .FR8) in the tree to rename, export, or edit its sets. (R)\n* Live Set Editor (beta) — read, edit, and write Sets live on your USB-connected accordion. (R)\n* One clear \"Print / Export\" button (PDF, CSV, HTML, text) that's always easy to find. (R)\n* Compare two backups by shape and color — easy to read even if you're colorblind, now including .UPB files. (K,R)\n* Set how long tips stay on screen, in Preferences. (K,R)\n* Fixed a false \"settings don't match your accordion\" message on the first send with some FR-4X setups. (R)\n* Organ reverb, chorus, and delay now edit and save correctly. (R)\n* Drum bellows and free-bass edits are now heard right away, not only after reloading. (R)\n* Expansion-pack voices now show the right name instead of \"[Not Installed]\". (R)\n* Fixed treble reed and Cassotto settings that could be lost when saving. (R)\n* Corrected a couple dozen Korg scene settings that could show or save wrong. (K)\n* Fixed garbled text in printed and PDF lists. (K,R)\n* Plus many smaller accuracy and reliability fixes. (K,R)",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
