@@ -1,8 +1,8 @@
 {
   "version_win": "13.1.3",
   "version_mac": "13.1.3",
-  "version_linux": "13.1.2",
-  "version": "13.1.2",
+  "version_linux": "13.1.3",
+  "version": "13.1.3",
   "notes": "July 17th 2026\nVersion 13.1+ (stable) / 13.2+ (beta)\n**********************\nNEW!\n* New editing tools and features. (K,R)\n* Now supports USB connections. (R)\n* Bug fixes and improvements. (K,R)\n* See About → Release Notes for more information.",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
