@@ -8,11 +8,11 @@
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
-  "version_beta_win": "13.2.6",
+  "version_beta_win": "13.2.8",
   "version_beta_mac": "13.2.8",
   "version_beta_linux": "13.2.6",
   "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.dmg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.AppImage",
-  "notes_beta": "July 17th 2026\nVersion 13.1+ (stable) / 13.2+ (beta)\n**********************\nNEW!\n* New editing tools and features. (K,R)\n* Now supports USB connections. (R)\n* Bug fixes and improvements. (K,R)\n* See About → Release Notes for more information."
+  "notes_beta": "July 19th 2026\nVersion 13.1+ (stable) / 13.2+ (beta)\n**********************\nNEW!\n* Extended Trial for those that Upgrade (K,R)\n* Fixed Printing Sets. (R)\n* New editing tools and features. (K,R)\n* Now supports USB connections. (R)\n* Bug fixes and improvements. (K,R)\n* See About → Release Notes for more information."
 }
