@@ -1,9 +1,9 @@
 {
   "version_win": "13.1.4",
-  "version_mac": "13.1.4",
+  "version_mac": "13.1.5",
   "version_linux": "13.1.4",
   "version": "13.1.4",
-  "notes": "July 19th 2026\nVersion 13.1+ (stable) / 13.2+ (beta)\n**********************\nNEW!\n* Extended Trial for those that Upgrade (K,R)\n* Fixed Printing Sets. (R)\n* New editing tools and features. (K,R)\n* Now supports USB connections. (R)\n* Bug fixes and improvements. (K,R)\n* See About → Release Notes for more information.",
+  "notes": "July 25th 2026\nVersion 13.1+ (stable) / 13.2+ (beta)\n**********************\nNEW!\n* Right-click to enable/disable a section now works in the R-Editor, not just the Live Editor. (R)\n* Browsing with unsaved changes now clearly confirms \"Saved\" before continuing. (R)\n* In the program info popup, Enter now saves the name and closes it. (R)\n* Several fixes and improvements. (K,R)\n* See About → Release Notes for more information.",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
