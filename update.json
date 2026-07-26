@@ -1,8 +1,8 @@
 {
   "version_win": "13.1.6",
   "version_mac": "13.1.6",
-  "version_linux": "13.1.4",
-  "version": "13.1.4",
+  "version_linux": "13.1.6",
+  "version": "13.1.6",
   "notes": "July 25th 2026\nVersion 13.1+ (stable) / 13.2+ (beta)\n**********************\nNEW!\n* Right-click to enable/disable a section now works in the R-Editor, not just the Live Editor. (R)\n* Browsing with unsaved changes now clearly confirms \"Saved\" before continuing. (R)\n* In the program info popup, Enter now saves the name and closes it. (R)\n* Several fixes and improvements. (K,R)\n* See About → Release Notes for more information.",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
