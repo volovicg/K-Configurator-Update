@@ -1,0 +1,50 @@
+# Publish this branch to GitHub Pages via Actions instead of the old built-in builder.
+#
+# WHY THIS EXISTS (2026-08-06)
+# The legacy Pages builder ran automatically on every push and worked 95 times in a row,
+# averaging 37 s. On 2026-08-06 it began failing at 0 ms — before reading a single file —
+# with no detail beyond "Page build failed." The site is 2.6 MB, GitHub reported Pages
+# operational, the pushes were structurally identical to the ones that had always worked,
+# and the API refuses to let the site be disabled and re-enabled. So there was nothing to
+# fix and no way to see why.
+#
+# The consequence was not cosmetic: update.json is what the app reads to learn there is a
+# new version. The committed file said 13.4.7/13.4.8/13.4.7 while the published copy still
+# said 13.4.6/13.4.4/13.4.5, so every user was told they were already up to date. The
+# binaries had uploaded perfectly; nobody was being offered them.
+#
+# This replaces that invisible step with an ordinary workflow: same result, but when it
+# fails there is a log saying why. Nothing else changes — the deploy scripts still just
+# push update.json to gh-pages, exactly as before.
+name: Deploy site to Pages
+
+on:
+  push:
+    branches: [gh-pages]
+  workflow_dispatch:        # lets a stuck publish be re-run by hand from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never cancel a publish in progress: update.json is what clients read, and a half-applied
+# deploy is worse than a slightly late one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
