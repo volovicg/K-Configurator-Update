@@ -9,10 +9,10 @@
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "version_beta_win": "13.4.10",
-  "version_beta_mac": "13.4.9",
+  "version_beta_mac": "13.4.12",
   "version_beta_linux": "13.4.9",
   "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.dmg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.AppImage",
-  "notes_beta": "August 4th 2026\nVersion 13.3+ (stable) / 13.4+ (beta)\n**********************\nNEW!\n* Compare a program with a file in the right pane - now in single tree view too. (R)\n* Highlight Differences says in plain words whether two programs match. (R)\n* Renaming a file in the right pane updates the list and keeps it selected. (R)\n* Comparison no longer shows a result from a file you already closed. (R)"
+  "notes_beta": "August 7th 2026\nVersion 13.3+ (stable) / 13.4+ (beta)\n**********************\nNEW!\n* Find Matches: click a program and every file holding the same sounds lights up. (R)\n* Drag a program from the tree onto the browser to save it as a .UPG file. (R)\n* Browse a folder of scene files right beside the tree. (K)\n* Drag a .sca or .rif scene file into the tree to add it to a bank. (K)\n* Sync scene names to file names across a whole library in one step. (K)\n* The License tab no longer tells paying customers they are \"Not activated\". (K,R)"
 }
