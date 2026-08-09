@@ -1,6 +1,6 @@
 {
   "version_win": "13.3.4",
-  "version_mac": "13.3.1",
+  "version_mac": "13.3.4",
   "version_linux": "13.3.2",
   "version": "13.3.2",
   "notes": "August 8th 2026\nVersion 13.3+ (stable) / 13.4+ (beta)\n**********************\nNEW!\n* Enhanced User Program Integrity Check. (R)\n* Automatic amnesty on all versions upgraded. (R,K)\n* See Help->Show Release Notes for More...",
