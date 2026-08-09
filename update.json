@@ -1,6 +1,6 @@
 {
   "version_win": "13.3.5",
-  "version_mac": "13.3.4",
+  "version_mac": "13.3.5",
   "version_linux": "13.3.4",
   "version": "13.3.4",
   "notes": "August 9th 2026\nVersion 13.3+ (stable) / 13.4+ (beta)\n**********************\nNEW!\n* Flags and updates programs in the older FR-8x format. (R)\n* Enhanced User Program Integrity Check. (R)\n* Automatic amnesty on all versions upgraded. (R,K)\n* See Help->Show Release Notes for More...",
