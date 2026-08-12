@@ -1,9 +1,9 @@
 {
   "version_win": "13.3.5",
-  "version_mac": "13.3.5",
+  "version_mac": "13.3.7",
   "version_linux": "13.3.6",
   "version": "13.3.6",
-  "notes": "August 10th 2026\nVersion 13.3+ (stable) / 13.4+ (beta)\n**********************\nNEW!\n* New \"Copy to Clipboard\" in Print/Export — paste the program list straight into Excel or Word. (R)\n* Right-click menus reorganized into logical submenus, so it's easier to find what you need. (K,R)\n* Right-click menu text is now larger and easier to read. (K,R)\n* See Help->Show Release Notes for More...",
+  "notes": "August 11th 2026\nVersion 13.3+ (stable) / 13.4+ (beta)\n**********************\nNEW!\n* New \"Copy to Clipboard\" in Print/Export — paste the program list straight into Excel or Word. (R)\n* Right-click menus reorganized into logical submenus, so it's easier to find what you need. (K,R)\n* Right-click menu text is now larger and easier to read. (K,R)\n* See Help->Show Release Notes for More...",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
