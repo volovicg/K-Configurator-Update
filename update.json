@@ -8,11 +8,11 @@
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
-  "version_beta_win": "13.4.30",
+  "version_beta_win": "13.4.31",
   "version_beta_mac": "13.4.31",
   "version_beta_linux": "13.4.29",
   "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.dmg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.AppImage",
-  "notes_beta": "August 15th 2026\nVersion 13.3+ (stable) / 13.4+ (beta)\n**********************\nNEW!\n* Now auto converts 4x/8x Upg's between automatically. (R)\n* Added feature to convert/fix non-playable AUDIO files[wav,mp3]. (R,K)\n* Rearrange registers: drag to reorder Registers in any scene section. (K)\n* Right click added copy special... paste special... (K)\n* Revised/Updated the K-Configurator Users Manual. (K,R)\n* See Help->Show Release Notes for More..."
+  "notes_beta": "August 13th 2026\nVersion 13.3+ (stable) / 13.4+ (beta)\n**********************\nNEW!\n* Added feature to convert/fix non-playable AUDIO files[wav,mp3]. (R,K)\n* Rearrange registers: drag to reorder Registers in any scene section. (K)\n* Right click added copy special... paste special... (K)\n* Revised/Updated the K-Configurator Users Manual. (K,R)\n* See Help->Show Release Notes for More..."
 }
