@@ -1,9 +1,9 @@
 {
-  "version_win": "13.3.10",
+  "version_win": "13.5.1",
   "version_mac": "13.3.10",
   "version_linux": "13.3.12",
   "version": "13.3.12",
-  "notes": "August 15th 2026\nVersion 13.3+ (stable) / 13.4+ (beta)\n**********************\nNEW!\n* Expansion pack summary shows which packs are needed or not used. (R)\n* Now auto converts 4x/8x Upg's between automatically. (R)\n* Added feature to convert/fix non-playable AUDIO files[wav,mp3]. (R,K)\n* Rearrange registers: drag to reorder Registers in any scene section. (K)\n* Right click added copy special... paste special... (K)\n* Revised/Updated the K-Configurator Users Manual. (K,R)\n* See Help->Show Release Notes for More...",
+  "notes": "August 25th 2026\nVersion 13.5+ (stable) / 13.6+ (beta)\n**********************\nNEW!\n* Live Editor auto-loads when you stop changing the number. (R)\n* Scene names can now be 28 characters. (K)\n* Drag files onto the bug report box to attach them. (K,R)\n* iPhone photos and scene files can now be attached. (K,R)\n* Plus many smaller accuracy and reliability fixes throughout. (K,R)\n* See Help->Show Release Notes for More...",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
