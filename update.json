@@ -9,10 +9,10 @@
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "version_beta_win": "13.6.2",
-  "version_beta_mac": "13.6.1",
+  "version_beta_mac": "13.6.2",
   "version_beta_linux": "13.4.47",
   "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.dmg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.AppImage",
-  "notes_beta": "August 22nd 2026\nVersion 13.3+ (stable) / 13.4+ (beta)\n**********************\nNEW!\n* Live Editor auto-loads when you stop changing the number. (R)\n* Scene names can now be 28 characters. (K)\n* Drag files onto the bug report box to attach them. (K,R)\n* iPhone photos and scene files can now be attached. (K,R)\n* Plus many smaller accuracy and reliability fixes throughout. (K,R)\n* See Help->Show Release Notes for More..."
+  "notes_beta": "August 25th 2026\nVersion 13.5+ (stable) / 13.6+ (beta)\n**********************\nNEW!\n* Live Editor auto-loads when you stop changing the number. (R)\n* Scene names can now be 28 characters. (K)\n* Drag files onto the bug report box to attach them. (K,R)\n* iPhone photos and scene files can now be attached. (K,R)\n* Plus many smaller accuracy and reliability fixes throughout. (K,R)\n* See Help->Show Release Notes for More..."
 }
