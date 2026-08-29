@@ -1,6 +1,6 @@
 {
   "version_win": "13.7.4",
-  "version_mac": "13.7.3",
+  "version_mac": "13.7.4",
   "version_linux": "13.7.2",
   "version": "13.7.2",
   "notes": "August 28th 2026\nVersion 13.7+ (stable) / 13.8+ (beta)\n**********************\nNEW!\n* Normalize Volumes: make a program - or whole banks - louder or quieter with the balance kept. (R)\n* All tree views are now ONE window - use the new Right Pane button to open a second file, a copy, or a folder beside it. (R)\n* Programs moved between FR-8x and FR-4x files convert automatically - no more popup questions. (R)\n* New Print button for the Cross-Model Sound Substitution list. (R)\n* Sending a bug report no longer freezes the app after a long session. (K,R)\n* See Help->Show Release Notes for More...",
