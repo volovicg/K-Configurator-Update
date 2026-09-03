@@ -10,9 +10,9 @@
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "version_beta_win": "13.8.22",
   "version_beta_mac": "13.8.21",
-  "version_beta_linux": "13.8.21",
+  "version_beta_linux": "13.8.22",
   "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.dmg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.AppImage",
-  "notes_beta": "September 2nd 2026\nVersion 13.7+ (stable) / 13.8+ (beta)\n**********************\nNEW!\n* Drum links now carry across between the FR-8x and FR-4x. (R)\n* Much smaller download and install - the guides now come from the web. (K,R)\n* Reed sliders now show which reeds the chosen register has switched off. (R)\n* Programs whose orchestra sound played nothing are now repaired automatically when the file is opened and whenever a program is imported, pasted or sent to an FR-8x. (R)\n* Importing a .UPB or .UPG now asks once which accordion made the file, so drum kits and bass/chord drum links are converted correctly between the FR-4x and FR-8x. (R)\n* Integrity Check now finds - and repairs - programs whose orchestra sound plays nothing. (R)\n* See Help->Show Release Notes for More..."
+  "notes_beta": "September 2nd 2026\nVersion 13.7+ (stable) / 13.8+ (beta)\n**********************\nNEW!\n* Drum links now carry across between the FR-8x and FR-4x. (R)\n* Much smaller download and install - the guides now come from the web. (K,R)\n* Reed sliders now show which reeds the chosen register has switched off. (R)\n* Silent orchestra registers (empty effect settings) are now repaired automatically on open and on import. (R)\n* Importing a .UPB/.UPG asks once which accordion made it, so drum kits and links convert correctly. (R)\n* Integrity Check now finds - and repairs - programs whose orchestra sound plays nothing. (R)\n* See Help->Show Release Notes for More..."
 }
