@@ -1,9 +1,9 @@
 {
   "version_win": "13.7.7",
-  "version_mac": "13.7.7",
+  "version_mac": "13.7.8",
   "version_linux": "13.7.7",
   "version": "13.7.7",
-  "notes": "September 2nd 2026\nVersion 13.7+ (stable) / 13.8+ (beta)\n**********************\nNEW!\n* Drum links now carry across between the FR-8x and FR-4x. (R)\n* Much smaller download and install - the guides now come from the web. (K,R)\n* Reed sliders now show which reeds the chosen register has switched off. (R)\n* See Help->Show Release Notes for More...",
+  "notes": "September 5th 2026\nVersion 13.7+ (stable) / 13.8+ (beta)\n**********************\nNEW!\n* Back up your entire FR-4X to a .UPA file straight over USB - no memory stick needed. (R)\n* The Live Editor menu now shows in green or red whether your accordion is connected. (R)\n* One tree opens everything now - the separate View SET Tree item is gone. (R)\n* See Help->Show Release Notes for More...",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
