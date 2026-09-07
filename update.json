@@ -8,11 +8,11 @@
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
-  "version_beta_win": "13.11.2",
+  "version_beta_win": "13.11.3",
   "version_beta_mac": "13.11.3",
   "version_beta_linux": "13.11.1",
   "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.dmg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.AppImage",
-  "notes_beta": "September 7th 2026\nVersion 13.10+ (stable) / 13.11+ (beta)\n**********************\nNEW!\n* Sending a program to the accordion right after using SET mode could store the SET's sounds over that program - fixed. The app now checks which buffer the accordion will write before every flash write, and refuses with a reason if it is the wrong one. (R)\n* Zoom the tree text with Cmd/Ctrl + and - (Cmd/Ctrl 0 resets); every tree in the window follows. (K) (R)\n* Live Editor changes now reach your accordion in real-time - the \"Send to Accordion\" button has been removed. (R)\n* Write/Save shows a * while the accordion is playing changes you have not saved yet. (R)\n* Live Editor: an Undo button takes back your last change - the accordion follows. (R)\n* Chin switches, Master Bar and Effect Pot now take effect as you set them. (R)\n* Press Ctrl+R any time to ask a question or report an issue. (K,R)\n* See Help->Show Release Notes for More..."
+  "notes_beta": "September 7th 2026\nVersion 13.10+ (stable) / 13.11+ (beta)\n**********************\nNEW!\n* Zoom the tree text with Cmd/Ctrl + and - (Cmd/Ctrl 0 resets); every tree in the window follows. (K) (R)\n* Live Editor changes now reach your accordion in real-time - the \"Send to Accordion\" button has been removed. (R)\n* Write/Save shows a * while the accordion is playing changes you have not saved yet. (R)\n* Live Editor: an Undo button takes back your last change - the accordion follows. (R)\n* Chin switches, Master Bar and Effect Pot now take effect as you set them. (R)\n* Press Ctrl+R any time to ask a question or report an issue. (K,R)\n* See Help->Show Release Notes for More..."
 }
