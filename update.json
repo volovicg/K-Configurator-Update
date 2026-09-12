@@ -1,6 +1,6 @@
 {
   "version_win": "13.10.9",
-  "version_mac": "13.10.9",
+  "version_mac": "13.10.10",
   "version_linux": "13.10.9",
   "version": "13.10.9",
   "notes": "September 11th 2026\nVersion 13.10+ (stable) / 13.11+ (beta)\n**********************\nNEW!\n* Re-synchronized several data issues. (K,R)\n* New audio editor for backing tracks - trim, fade, level and tone (EQ). (K,R)\n* Zoom the tree text with Cmd/Ctrl + and - (Cmd/Ctrl 0 resets); every tree in the window follows. (K) (R)\n* Live Editor changes now reach your accordion in real-time - the \"Send to Accordion\" button has been removed. (R)\n* Write/Save shows a * while the accordion is playing changes you have not saved yet. (R)\n* Live Editor: an Undo button takes back your last change - the accordion follows. (R)\n* Chin switches, Master Bar and Effect Pot now take effect as you set them. (R)\n* Press Ctrl+R any time to ask a question or report an issue. (K,R)\n* See Help->Show Release Notes for More...",
