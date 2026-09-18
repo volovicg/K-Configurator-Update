@@ -9,11 +9,11 @@
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "version_beta_win": "13.11.30",
-  "version_beta_mac": "13.11.30",
+  "version_beta_mac": "13.11.31",
   "version_beta_linux": "13.11.29",
   "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.dmg",
   "download_url_beta_mac_pkg": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.pkg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.AppImage",
-  "notes_beta": "September 18th 2026\nVersion 13.11.30+ (beta)\n**********************\nNEW!\n* The Roland Expansion Settings window no longer runs off the bottom of small or high-resolution laptop screens (e.g. Surface) - its content scrolls within the window. (R)\n* The Expansion Pack Usage report is now included automatically in a support request, so the separate \"Copy\" button has been removed. (R)\n* See Help->Show Release Notes for More..."
+  "notes_beta": "September 18th 2026 (evening)\nVersion 13.11.31+ (beta)\n**********************\nNEW!\n* Global Settings: Send and Write/Save no longer overwrite settings changed on the accordion's panel. (R)\n* Write/Save skips the flash commit when nothing changed, so the FR-4X pause only happens when needed. (R)\n* Windows updates: the installer now opens in front of other windows. (K,R)\n* Orchestra Tone List: readable in the light theme. (R)\n* Light theme: About, release notes, Getting Started, update notes and activation windows corrected. (K,R)\n* Fix Files That Won't Play: the log now names each junk file removed. (K,R)\n* Silent orchestra register, second cause: effect settings that belong to another effect (from an FR-4X) are switched off on import, reset when an FR-8X file opens, and reported by the Integrity Check. (R)\n* See Help->Show Release Notes for More..."
 }
