@@ -1,8 +1,8 @@
 {
   "version_win": "13.12.1",
   "version_mac": "13.12.1",
-  "version_linux": "13.10.10",
-  "version": "13.10.10",
+  "version_linux": "13.12.1",
+  "version": "13.12.1",
   "notes": "September 19th 2026 (morning)\nVersion 13.11.31+ (beta)\n**********************\nNEW!\n* Global Settings: Send no longer overwrites panel changes. (R)\n* Write/Save: no flash commit when nothing changed. (R)\n* Windows updates: the installer opens in front. (K,R)\n* Tone List: readable in the light theme. (R)\n* Silent orchestra register from FR-4X imports: fixed. (R)\n* See Help->Show Release Notes for More...",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
