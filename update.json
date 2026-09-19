@@ -10,10 +10,10 @@
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "version_beta_win": "13.11.35",
   "version_beta_mac": "13.11.35",
-  "version_beta_linux": "13.11.34",
+  "version_beta_linux": "13.11.35",
   "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.dmg",
   "download_url_beta_mac_pkg": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.pkg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.AppImage",
-  "notes_beta": "September 19th 2026 (later still)\nVersion 13.11.35+ (beta)\n**********************\nNEW!\n* Updates: a short note now explains the pause while the installer starts and the permission prompt appears. (K,R)\n* See Help->Show Release Notes for More..."
+  "notes_beta": "September 18th 2026 (evening)\nVersion 13.11.31+ (beta)\n**********************\nNEW!\n* Global Settings: Send no longer overwrites panel changes. (R)\n* Write/Save: no flash commit when nothing changed. (R)\n* Windows updates: the installer opens in front. (K,R)\n* Tone List: readable in the light theme. (R)\n* Silent orchestra register from FR-4X imports: fixed. (R)\n* See Help->Show Release Notes for More..."
 }
