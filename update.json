@@ -1,6 +1,6 @@
 {
   "version_win": "13.12.5",
-  "version_mac": "13.12.5",
+  "version_mac": "13.12.6",
   "version_linux": "13.12.5",
   "version": "13.12.5",
   "notes": "September 24th 2026\nVersion 13.13.26 (beta)\n**********************\nNEW!\n* Light theme: readable throughout. (K,R)\n* Linux: .deb install and update. (K,R)\n* Interface size: scale the app for 4K screens. (K,R)\n* Tree views: on-screen zoom hint. (K,R)\n* See Help->Show Release Notes for More...",
