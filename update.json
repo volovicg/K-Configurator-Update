@@ -9,13 +9,13 @@
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "version_beta_win": "13.13.40",
-  "version_beta_mac": "13.13.40",
+  "version_beta_mac": "13.13.41",
   "version_beta_linux": "13.13.36",
   "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.dmg",
   "download_url_beta_mac_pkg": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.pkg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.AppImage",
-  "notes_beta": "September 24th 2026\nVersion 13.13.26 (beta)\n**********************\nNEW!\n* Light theme: readable throughout. (K,R)\n* Linux: .deb install and update. (K,R)\n* Interface size: scale the app for 4K screens. (K,R)\n* Tree views: on-screen zoom hint. (K,R)\n* See Help->Show Release Notes for More...",
+  "notes_beta": "September 28th 2026\nVersion 13.13.x (beta)\n**********************\nNEW!\n* Enhanced the UI. (K,R)\n* Mac updates: installer package first, disk image as fallback. (K,R)\n* Live Editor: sounds from a pack the accordion does not have are marked \"not on the accordion\". (R)\n* Write/Save: the write bar and FR-4X octave controls say what takes effect only on Write/Save. (R)\n* See Help->Show Release Notes for More...",
   "download_url_beta_linux_deb": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta.deb",
   "download_url_linux_deb": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.deb"
 }
