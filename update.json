@@ -1,9 +1,9 @@
 {
-  "version_win": "13.16.4",
+  "version_win": "13.16.5",
   "version_mac": "13.16.5",
   "version_linux": "13.16.4",
   "version": "13.16.4",
-  "notes": "October 13th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* New MIDI Monitor & Chord Analyzer: see what you play. (K,R)\n* Generate sheet music from what you play. (K,R)\n* Play MIDI and MusicXML files on the accordion. (R)\n* Live Editor: larger, easier-to-read buttons and captions. (R)\n* New DAW plugin (VST3, AU, CLAP), installs with the app. (K,R)\n*   For Logic Pro, Cubase, Studio One, Reaper, Bitwig. (K,R)\n* See Help->Show Release Notes for More...",
+  "notes": "October 18th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Added a graphic equalizer (EQ) for the 4X speakers. (R)\n* Fixed an EVO MIDI port connection issue. (B)\n* Enhanced the Live Notation / scoring feature. (K,R)\n* See Help->Show Release Notes for More...",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
