@@ -1,6 +1,6 @@
 {
   "version_win": "13.16.7",
-  "version_mac": "13.16.7",
+  "version_mac": "13.16.8",
   "version_linux": "13.16.6",
   "version": "13.16.6",
   "notes": "October 18th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Added a graphic equalizer (EQ) for the 4X speakers. (R)\n* Fixed an EVO MIDI port connection issue. (B)\n* Enhanced the Live Notation / scoring feature. (K,R)\n* See Help->Show Release Notes for More...",
