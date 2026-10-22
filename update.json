@@ -1,12 +1,12 @@
 {
   "version_win": "13.16.10",
   "version_mac": "13.16.11",
-  "version_linux": "13.16.9",
-  "version": "13.16.9",
+  "version_linux": "13.16.12",
+  "version": "13.16.12",
   "notes": "October 18th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Added a graphic equalizer (EQ) for the 4X speakers. (R)\n* Fixed an EVO MIDI port connection issue. (B)\n* Enhanced the Live Notation / scoring feature. (K,R)\n* See Help->Show Release Notes for More...",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.dmg",
-  "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
+  "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.12.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "version_beta_win": "13.17.34",
   "version_beta_mac": "13.17.34",
@@ -16,7 +16,7 @@
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta-13.17.34.AppImage",
   "notes_beta": "October 18th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Added a graphic equalizer (EQ) for the 4X speakers. (R)\n* Fixed an EVO MIDI port connection issue. (B)\n* Enhanced the Live Notation / scoring feature. (K,R)\n* See Help->Show Release Notes for More...",
   "download_url_beta_linux_deb": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta-13.17.34.deb",
-  "download_url_linux_deb": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.deb",
+  "download_url_linux_deb": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.12.deb",
   "download_url_mac_pkg": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.pkg",
   "download_url_beta_mac_pkg": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta-13.17.34.pkg",
   "download_sha256_beta_mac": "4f2d4aed9ef006915f6634162a980015616ff442b05092c4967c840abb36e5a7",
@@ -26,5 +26,9 @@
   "download_sha256_beta_linux": "fa48a6c393ea989cf7e8494759d4e3ffc3d8a25b8e18feeb4f4e9f032b1ddb48",
   "download_size_beta_linux": 63465976,
   "download_sha256_beta_linux_deb": "c28796fdf4a0edafc3a819c51a26457099282383d2990e82ef020b223c68e6ec",
-  "download_size_beta_linux_deb": 51496844
+  "download_size_beta_linux_deb": 51496844,
+  "download_sha256_linux": "23cd81285c39ffb46610b2889589623a7a49a22c3687cfbb1a26a975b791c19c",
+  "download_size_linux": 63465976,
+  "download_sha256_linux_deb": "42757b0d2dc65cdd13fdf4bb9e064fb4e14299158fa2f6a5eb0c295d7d50efac",
+  "download_size_linux_deb": 51496830
 }
