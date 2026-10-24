@@ -1,11 +1,11 @@
 {
   "version_win": "13.16.13",
-  "version_mac": "13.16.13",
+  "version_mac": "13.16.14",
   "version_linux": "13.16.12",
   "version": "13.16.12",
-  "notes": "October 23rd 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Live Transcription: drag the playhead to any bar. (K,R)\n* Play take: hear your recording played back. (K,R)\n* Record the right hand or the left hand on its own. (K,R)\n* Add lyrics: the words appear under the notes. (K,R)\n* See Help->Show Release Notes for More...",
+  "notes": "October 24th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Open and edit single SET files (.ST8/.ST4). (R)\n* Live Transcription: clear just the treble or bass staff. (K,R)\n* Readable PDFs for short or dense takes. (K,R)\n* Saved sessions open in the same window. (K,R)\n* Faster program loading. (R)\n* See Help->Show Release Notes for More...",
   "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
-  "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.13.dmg",
+  "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.14.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.12.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
   "version_beta_win": "13.17.38",
@@ -17,7 +17,7 @@
   "notes_beta": "October 24th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Open and edit single SET files (.ST8/.ST4). (R)\n* Live Transcription: clear just the treble or bass staff. (K,R)\n* Readable PDFs for short or dense takes. (K,R)\n* Saved sessions open in the same window. (K,R)\n* Faster program loading. (R)\n* See Help->Show Release Notes for More...",
   "download_url_beta_linux_deb": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta-13.17.38.deb",
   "download_url_linux_deb": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.12.deb",
-  "download_url_mac_pkg": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.13.pkg",
+  "download_url_mac_pkg": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.14.pkg",
   "download_url_beta_mac_pkg": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta-13.17.38.pkg",
   "download_sha256_beta_mac": "c34d19353b262ce394f8ac0d791d33932059add0aca858d4552f52c27bfa8769",
   "download_size_beta_mac": 85456244,
@@ -31,8 +31,8 @@
   "download_size_linux": 63465976,
   "download_sha256_linux_deb": "42757b0d2dc65cdd13fdf4bb9e064fb4e14299158fa2f6a5eb0c295d7d50efac",
   "download_size_linux_deb": 51496830,
-  "download_sha256_mac": "1ab5078acb515cdc43057cbf80cd9c07ef5abdb3487fe4252ae2e1c6cbff4dbe",
-  "download_size_mac": 84795927,
-  "download_sha256_mac_pkg": "56c777ddcb7af419325a1e558e26eee924d78b3a2909485c83cebdd8b3dc8a14",
-  "download_size_mac_pkg": 85868356
+  "download_sha256_mac": "5e0d3f5d0ed269716d450cbabdbb6eef331393643b6fc90b792decda84fbf7a6",
+  "download_size_mac": 85487751,
+  "download_sha256_mac_pkg": "74df2f386f163eddb73928064fb67cba46cd2fcd2232d6c0f93d163ba3622f16",
+  "download_size_mac_pkg": 86558592
 }
