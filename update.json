@@ -8,10 +8,10 @@
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.14.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.14.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
-  "version_beta_win": "13.17.40",
+  "version_beta_win": "13.17.41",
   "version_beta_mac": "13.17.40",
   "version_beta_linux": "13.17.40",
-  "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta-13.17.40.exe",
+  "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta-13.17.41.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta-13.17.40.dmg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta-13.17.40.AppImage",
   "notes_beta": "October 25th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Live Editor follows the played register. (R)\n* Write/Save keeps the played register. (R)\n* Safer saving, 10x faster reading. (R)\n* See Help->Show Release Notes for More...",
@@ -35,6 +35,6 @@
   "download_size_mac": 85487751,
   "download_sha256_mac_pkg": "74df2f386f163eddb73928064fb67cba46cd2fcd2232d6c0f93d163ba3622f16",
   "download_size_mac_pkg": 86558592,
-  "download_sha256_beta_win": "2f3ab3e91cf07b44e05b3a51d9fdf0e2aefa972a5d383eeaed2708bc7adeff23",
-  "download_size_beta_win": 92712656
+  "download_sha256_beta_win": "d6cee357827e99b2161bf89f3cff86d23502f9b3419c081ac5d5228d1fa5f661",
+  "download_size_beta_win": 93217120
 }
