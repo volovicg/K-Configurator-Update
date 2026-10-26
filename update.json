@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.14",
+  "version_win": "13.16.15",
   "version_mac": "13.16.14",
   "version_linux": "13.16.14",
   "version": "13.16.14",
-  "notes": "October 24th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Open and edit single SET files (.ST8/.ST4). (R)\n* Live Transcription: clear just the treble or bass staff. (K,R)\n* Readable PDFs for short or dense takes. (K,R)\n* Saved sessions open in the same window. (K,R)\n* Faster program loading. (R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed.exe",
+  "notes": "October 26th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* New Score Editor for your takes. (K,R)\n* Live Editor follows your register. (R)\n* Safer Write/Save, faster reading. (R)\n* Better rhythm in Live Transcription. (K,R)\n* FR-4x drum kit check. (R)\n* See Help->Show Release Notes for More...",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.15.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.14.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.14.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -36,5 +36,7 @@
   "download_sha256_mac_pkg": "74df2f386f163eddb73928064fb67cba46cd2fcd2232d6c0f93d163ba3622f16",
   "download_size_mac_pkg": 86558592,
   "download_sha256_beta_win": "eecd0b8e1e9ad80cca171a18fb59e5c809d1e4f14b503c8fa3be8832ebcf8413",
-  "download_size_beta_win": 93465720
+  "download_size_beta_win": 93465720,
+  "download_sha256_win": "a5768709ec6ab0002a9089b5a327b6804d46e7b9cf5bd47c74068d4a701c5005",
+  "download_size_win": 93466592
 }
