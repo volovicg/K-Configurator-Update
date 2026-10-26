@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.16",
+  "version_win": "13.16.17",
   "version_mac": "13.16.16",
   "version_linux": "13.16.16",
   "version": "13.16.16",
   "notes": "October 26th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* New Score Editor for your takes. (K,R)\n* Live Editor follows your register. (R)\n* Safer Write/Save, faster reading. (R)\n* Better rhythm in Live Transcription. (K,R)\n* FR-4x drum kit check. (R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.16.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.17.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.16.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.16.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -37,6 +37,6 @@
   "download_size_mac_pkg": 88853867,
   "download_sha256_beta_win": "9c48e821219868cb03f96508cd1bd81d6602fdbf3e836d37ab6260cd3f2e9829",
   "download_size_beta_win": 93632096,
-  "download_sha256_win": "e71655d691e452fb1f3bfd989d15cc355d9d8ca2d2247a9ca0e7171eace387b8",
-  "download_size_win": 93588632
+  "download_sha256_win": "2f4c9ce38c196d1cfef351099919591ff7fada558b78e70ccc0b277a651b1a12",
+  "download_size_win": 93619616
 }
