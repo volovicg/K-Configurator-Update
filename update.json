@@ -8,10 +8,10 @@
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.15.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.15.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
-  "version_beta_win": "13.17.44",
+  "version_beta_win": "13.17.45",
   "version_beta_mac": "13.17.45",
   "version_beta_linux": "13.17.44",
-  "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta-13.17.44.exe",
+  "download_url_beta_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-beta-13.17.45.exe",
   "download_url_beta_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta-13.17.45.dmg",
   "download_url_beta_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-beta-13.17.44.AppImage",
   "notes_beta": "October 26th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* New Score Editor for your takes. (K,R)\n* Live Editor follows your register. (R)\n* Safer Write/Save, faster reading. (R)\n* Better rhythm in Live Transcription. (K,R)\n* FR-4x drum kit check. (R)\n* See Help->Show Release Notes for More...",
@@ -35,8 +35,8 @@
   "download_size_mac": 87522371,
   "download_sha256_mac_pkg": "0bf355d7347c61496838dec381c464cad72655a2997b35680f1bb3a2161ca2e9",
   "download_size_mac_pkg": 88590682,
-  "download_sha256_beta_win": "eecd0b8e1e9ad80cca171a18fb59e5c809d1e4f14b503c8fa3be8832ebcf8413",
-  "download_size_beta_win": 93465720,
+  "download_sha256_beta_win": "08bce1d9ddeb313c3d14ccdae87a97770de6d509b68115cd01da8de824e759d3",
+  "download_size_beta_win": 93581240,
   "download_sha256_win": "a5768709ec6ab0002a9089b5a327b6804d46e7b9cf5bd47c74068d4a701c5005",
   "download_size_win": 93466592
 }
