@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.17",
+  "version_win": "13.16.18",
   "version_mac": "13.16.17",
   "version_linux": "13.16.17",
   "version": "13.16.17",
-  "notes": "October 26th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* New Score Editor for your takes. (K,R)\n* Live Editor follows your register. (R)\n* Safer Write/Save, faster reading. (R)\n* Better rhythm in Live Transcription. (K,R)\n* FR-4x drum kit check. (R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.17.exe",
+  "notes": "October 28th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Full, easy-to-use Score Editor - play, record, edit and print your music. (K,R)\n* Faster, smaller printed reports. (K,R)\n* Improved SET and System Settings editing. (R)\n* Easier copy, swap and empty between backups. (K)\n* Many reliability improvements throughout. (K,R)\n* See Help->Show Release Notes for More...",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.18.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.17.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.17.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 88925753,
   "download_sha256_beta_win": "56bfc04677146dbad344938b08f8f95ff9a4be292a216903ebab2dcef1fb96b4",
   "download_size_beta_win": 94633576,
-  "download_sha256_win": "2f4c9ce38c196d1cfef351099919591ff7fada558b78e70ccc0b277a651b1a12",
-  "download_size_win": 93619616,
+  "download_sha256_win": "d12eff53bce99c86ce1f11a3ee69aaf504aff03a405697c0bff106749499759a",
+  "download_size_win": 94732384,
   "download_sha256_beta_mac_pkg": "a1be1501a7b923454c75be7b372f7f79c3a87326a317e36ef39bf99147f57fb4",
   "download_size_beta_mac_pkg": 91138813
 }
