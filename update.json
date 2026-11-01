@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.60",
+  "version_win": "13.16.61",
   "version_mac": "13.16.61",
   "version_linux": "13.16.20",
   "version": "13.16.20",
   "notes": "October 28th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Full, easy-to-use Score Editor - play, record, edit and print your music. (K,R)\n* Faster, smaller printed reports. (K,R)\n* Improved SET and System Settings editing. (R)\n* Easier copy, swap and empty between backups. (K)\n* 10x faster throughput to the accordion. (R)\n* Fixes a crash when previewing a detailed print. (K,R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.60.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.61.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.61.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.20.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 94501898,
   "download_sha256_beta_win": "a3593b24800a739482785118f4c7985b10fbb2395f1f38e089624e346abd7357",
   "download_size_beta_win": 72412392,
-  "download_sha256_win": "6990f184d7da3ef69fad926de93ffefc90965386b96ae49c1eab9f9ddc6ba58f",
-  "download_size_win": 72181960,
+  "download_sha256_win": "ce44832003fd125a9900af97d13088c019458489586c86b485be64ecaaf48eee",
+  "download_size_win": 72408640,
   "download_sha256_beta_mac_pkg": "0f8d969c265f0b47c8ae7ba77d2489a59834204fb21303806d65192c997a2648",
   "download_size_beta_mac_pkg": 94501914
 }
