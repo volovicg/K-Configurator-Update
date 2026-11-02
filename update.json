@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.61",
+  "version_win": "13.16.64",
   "version_mac": "13.16.64",
   "version_linux": "13.16.63",
   "version": "13.16.63",
   "notes": "November 1st 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Safer saving when you use the accordion's own Write or move on its panel. (R)\n* Score Editor: easier to remove a crescendo; empty first bars all removed. (K,R)\n* Collection install asks before replacing a backup on the USB. (K)\n* Manuals open in the built-in viewer if your PDF app can't. (K,R)\n* Mac: Quit now closes the app cleanly. (K,R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.61.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.64.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.64.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.63.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 95433789,
   "download_sha256_beta_win": "928eb833695e16bd4bac155c1473baf1872326821b7068b60ea450e468ea1930",
   "download_size_beta_win": 72798944,
-  "download_sha256_win": "ce44832003fd125a9900af97d13088c019458489586c86b485be64ecaaf48eee",
-  "download_size_win": 72408640,
+  "download_sha256_win": "e4283455a82a74638b3d5072a33813a43e9b7956d8ebae4c69c59bdbf1e077a2",
+  "download_size_win": 72879856,
   "download_sha256_beta_mac_pkg": "d891c6b0c8b1f6a0140b757cf20b70e42b9b9084d76252cdac6fff28e879834d",
   "download_size_beta_mac_pkg": 95266375
 }
