@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.65",
+  "version_win": "13.16.66",
   "version_mac": "13.16.66",
   "version_linux": "13.16.65",
   "version": "13.16.65",
   "notes": "November 3rd 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Name bass notes in the Score Editor. (K,R)\n* Play take shows \"Starting…\". (K,R)\n* Softer bellows play back truer. (R)\n* Remembers which accordion made a file. (R)\n* Easier first start. (K,R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.65.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.66.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.66.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.65.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 96745054,
   "download_sha256_beta_win": "acf0f8fbd0997aa518c4609a34e61e1136bfb3d3aa78bb6a081b56f9b7cc1920",
   "download_size_beta_win": 73527432,
-  "download_sha256_win": "385af56ba705de20fcd2deb807f1eaf78d1ac4ea142cca37e1e5cb411b888512",
-  "download_size_win": 73302840,
+  "download_sha256_win": "61b19a9b8dfe8efbb6d8bdc09a21edd5b3af1b96751b376f2d210e233c3f1d82",
+  "download_size_win": 73528800,
   "download_sha256_beta_mac_pkg": "98a7139d1fbb1eb634c30fbfae96a9c399cc01c4ca9eca75a3b430f6497150ed",
   "download_size_beta_mac_pkg": 96745053
 }
