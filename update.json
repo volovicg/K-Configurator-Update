@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.64",
+  "version_win": "13.16.65",
   "version_mac": "13.16.65",
   "version_linux": "13.16.64",
   "version": "13.16.64",
   "notes": "November 2nd 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Score Editor: fit on pages, drag any text, swing, faster editing. (K,R)\n* Faster, steadier Korg tree and collection install. (K)\n* MIDI file playback: balanced levels, quicker part changes. (K,R)\n* Compare and Find Duplicates ignore organ data you never hear. (R)\n* Updates keep each installer and tidy old ones away. (K,R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.64.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.65.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.65.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.64.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 96299585,
   "download_sha256_beta_win": "6c8504c6bd20d2f69901349281b2a9c43b152bfa2a3a3b588ae7abb21ec4b62f",
   "download_size_beta_win": 73310272,
-  "download_sha256_win": "e4283455a82a74638b3d5072a33813a43e9b7956d8ebae4c69c59bdbf1e077a2",
-  "download_size_win": 72879856,
+  "download_sha256_win": "385af56ba705de20fcd2deb807f1eaf78d1ac4ea142cca37e1e5cb411b888512",
+  "download_size_win": 73302840,
   "download_sha256_beta_mac_pkg": "2ce1377ea732993531d8262b5cf06762a732b228d5f961304c33c6f222df868c",
   "download_size_beta_mac_pkg": 96190310
 }
