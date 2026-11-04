@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.66",
+  "version_win": "13.16.67",
   "version_mac": "13.16.67",
   "version_linux": "13.16.66",
   "version": "13.16.66",
   "notes": "November 4th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Steady playback level for takes without bellows. (K,R)\n* Name several bass notes at once; bass stems remembered. (K,R)\n* Both hands stay together at quarter-note snap. (K,R)\n* Backup asks before it stops. (R)\n* EVO plays through the computer, with steps for the EVO. (R)\n* Smoother undo on slow USB sticks. (K)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.66.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.67.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.67.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.66.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 96988748,
   "download_sha256_beta_win": "3c779c8e99b856fd82a13b4ea68d407f3c0b16292cc90d5d6fa4b64d09b079bc",
   "download_size_beta_win": 73649320,
-  "download_sha256_win": "61b19a9b8dfe8efbb6d8bdc09a21edd5b3af1b96751b376f2d210e233c3f1d82",
-  "download_size_win": 73528800,
+  "download_sha256_win": "cd97ced88eccbe9e6a5a7a46ec4fa6186c7d56989256fb0fd5cb2cde3bc7bffa",
+  "download_size_win": 73644936,
   "download_sha256_beta_mac_pkg": "446c4798cb11a3c5552ee0b36f99f805596d23cd583436edcf1c45779f8f5aa1",
   "download_size_beta_mac_pkg": 96988684
 }
