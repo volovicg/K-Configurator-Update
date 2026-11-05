@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.70",
+  "version_win": "13.16.71",
   "version_mac": "13.16.71",
   "version_linux": "13.16.70",
   "version": "13.16.70",
   "notes": "November 5th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Score Editor: three note styles - Classic, Modern and Jazz. (K,R)\n* Score Editor: staff size Small, Medium or Large. (K,R)\n* Open and Save Session remember your last folder. (K,R)\n* Tree window: Esc clears the search; its shortcuts work from the main window. (R)\n* Fixed an issue at the end of an in-app update. (K,R)\n* Fixed an issue where Return in the Live Editor reloaded the program. (R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.70.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.71.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.71.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.70.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 99899126,
   "download_sha256_beta_win": "aaca3d18113a69274d8f820ece46afde9627dc588b28b632c84b321f31050b1c",
   "download_size_beta_win": 74915376,
-  "download_sha256_win": "05bb720d2d0dff38d56f4ac30b738ccd1895c1d35fe5133b74f9ad31744e515a",
-  "download_size_win": 74010784,
+  "download_sha256_win": "c4c5ba98a1bce88be22105f49ff04fbe5d37c0de576427fc18c94112b349ef69",
+  "download_size_win": 74914328,
   "download_sha256_beta_mac_pkg": "82def28f748da22a6d2fb9d386479d85f65033927968428167a923adb75b0097",
   "download_size_beta_mac_pkg": 99899100
 }
