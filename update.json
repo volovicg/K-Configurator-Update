@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.69",
+  "version_win": "13.16.70",
   "version_mac": "13.16.70",
   "version_linux": "13.16.69",
   "version": "13.16.69",
   "notes": "November 5th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Score Editor: start a new line at any bar. (K,R)\n* New Session; text box styles and fonts. (K,R)\n* Easier endings and repeats; double bar before key changes. (K,R)\n* MIDI Monitor: buttons or piano in one click. (R)\n* Tree Undo says what it will undo. (R)\n* Fixed an issue when closing the Orchestra Tone List while printing. (R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.69.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.70.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.70.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.69.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 97722055,
   "download_sha256_beta_win": "a658228c53ce8d54203cb0fd6d2635d0a933530792568142b7183ac6205f97ad",
   "download_size_beta_win": 74001536,
-  "download_sha256_win": "891980b421f07d0a12741785c5ab39ca6242f5a862e85ce18db780f8f2573e45",
-  "download_size_win": 74007472,
+  "download_sha256_win": "05bb720d2d0dff38d56f4ac30b738ccd1895c1d35fe5133b74f9ad31744e515a",
+  "download_size_win": 74010784,
   "download_sha256_beta_mac_pkg": "3e40a695790e554d058245eb17a7f635c7bfaaf97e2d3b4cda04a89250613e6e",
   "download_size_beta_mac_pkg": 97722189
 }
