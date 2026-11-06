@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.71",
+  "version_win": "13.16.75",
   "version_mac": "13.16.75",
   "version_linux": "13.16.71",
   "version": "13.16.71",
   "notes": "November 6th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Score Editor: Fit on pages fills each page; drag a corner to resize text. (K,R)\n* Score Editor shows when the connection drops, with a Reconnect button. (K,R)\n* Score Editor: zoom slider, Actual Size view, page numbers bottom right. (K,R)\n* Fixed an issue where Write/Save undid a left-hand change made on the FR-4X panel. (R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.71.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.75.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.75.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.71.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 100181136,
   "download_sha256_beta_win": "aa26143a29839af947a6480d939eb50a59582890fc2acfc34b37e2066e80efad",
   "download_size_beta_win": 75058416,
-  "download_sha256_win": "c4c5ba98a1bce88be22105f49ff04fbe5d37c0de576427fc18c94112b349ef69",
-  "download_size_win": 74914328,
+  "download_sha256_win": "edaace1984b2cfa8272115dad686418fa61e8d9fb0f14582b208f03a83fdae77",
+  "download_size_win": 75051952,
   "download_sha256_beta_mac_pkg": "726a1745aa04e5e437e1aa7ca2143d21f3e37a4e113fe861fa4b947ad205899e",
   "download_size_beta_mac_pkg": 100181061
 }
