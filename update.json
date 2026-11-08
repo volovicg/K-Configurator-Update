@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.78",
+  "version_win": "13.16.80",
   "version_mac": "13.16.80",
   "version_linux": "13.16.78",
   "version": "13.16.78",
   "notes": "November 8th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Score Editor: a staff size slider, and Small, Medium and Large are now the same size in every score. (K,R)\n* Score Editor: chord names follow the harmony, and repeats play the right number of times. (K,R)\n* Settings menus stay open while you tick options. (K,R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.78.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.80.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.80.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.78.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 102068063,
   "download_sha256_beta_win": "49bdd0bcf12c67ad645e39e16bef4a4bb5550fc1fed4bd1c624e56568f9a6c7d",
   "download_size_beta_win": 75966728,
-  "download_sha256_win": "4a2697158d35e2180c4fd8ad407afb7532ad0045961ad289f57294a86d21b527",
-  "download_size_win": 75690512,
+  "download_sha256_win": "5b1d54a552ac778a40b1517fae3ddfa432c8fb6c45424d50b5685a86d683dfde",
+  "download_size_win": 75973968,
   "download_sha256_beta_mac_pkg": "cbb359f74c69f77d56cf99c05630b644819d9eb5946b66d79e905ed7265c7580",
   "download_size_beta_mac_pkg": 102067574
 }
