@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.81",
+  "version_win": "13.16.83",
   "version_mac": "13.16.83",
   "version_linux": "13.16.81",
   "version": "13.16.81",
   "notes": "November 10th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Score Editor: simpler right-click menus, with Stem, Move or copy, and Slurs and glissandos as submenus. (K,R)\n* Score Editor: Save Session saves straight to the session you opened, and there is a new Save Session As… (K,R)\n* Score Editor: the key and date line under the title can be moved, sized and edited like the title. (K,R)\n* Live Editor: changing a value and changing it back no longer counts as an unsaved change. (R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.81.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.83.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.83.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.81.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 103444535,
   "download_sha256_beta_win": "c4155b125f276d6832be582921b4ac0850c8a2ecb411764926312832591cf68d",
   "download_size_beta_win": 76597904,
-  "download_sha256_win": "24cb7bef2722a9e32bf0bf2ecdf305117a4fffc758bf818cd03ce725d82192c4",
-  "download_size_win": 76218824,
+  "download_sha256_win": "e9c0a216f5206ef4e4a32484fb34f5874ca96142239cc4309b01e13b18a8e2da",
+  "download_size_win": 76598008,
   "download_sha256_beta_mac_pkg": "6c255b24e027e4a395e439b81e9045dd98c75195130c583b7686fbadf8887108",
   "download_size_beta_mac_pkg": 103444549
 }
