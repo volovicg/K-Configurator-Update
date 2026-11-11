@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.84",
+  "version_win": "13.16.85",
   "version_mac": "13.16.85",
   "version_linux": "13.16.84",
   "version": "13.16.84",
   "notes": "November 10th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* MIDI Monitor: a larger live staff, and recording at a slower click. (K,R)\n* Score Editor: print preview zoom, bar numbers at each line start, bold or italic key line. (K,R)\n* Faster Highlight Differences and .UPA opening, plus a Disconnect button. (R)\n* Clearer update messages. (K,R)\n* Fixed an issue when the tree window was closed while a Browse… window was open. (R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.84.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.85.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.85.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.84.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 104164956,
   "download_sha256_beta_win": "d1aa5d0988c922c95de4b9becda55ad54c44cf4475fb64f83697cac7101f5045",
   "download_size_beta_win": 76936216,
-  "download_sha256_win": "1155de7b052ccd1ee0a1edea067dcc841840bad476a0e3c9ec479551bb53192a",
-  "download_size_win": 76794192,
+  "download_sha256_win": "287d71a9d803759b8356b50cec54e07321e2ee51424ee41534725020126e547f",
+  "download_size_win": 76945104,
   "download_sha256_beta_mac_pkg": "175a1cd257f4355de5762b81f147727247ab2acebf76a7e2ff7f1c0136a3c7ed",
   "download_size_beta_mac_pkg": 104144619
 }
