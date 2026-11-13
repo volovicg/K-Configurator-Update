@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.88",
+  "version_win": "13.16.91",
   "version_mac": "13.16.91",
   "version_linux": "13.16.88",
   "version": "13.16.88",
   "notes": "November 13th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Record your FISA into the Audio Editor (Mac, beta). (K)\n* Live Editor: \"Preview\" plays a phrase, now in SET mode too. (R)\n* Score Editor: new \"Go back to bar…\" and repeat hints. (K,R)\n* Live SET Editor: the SET box chooses the SET to read. (R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.88.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.91.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.91.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.88.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 107046580,
   "download_sha256_beta_win": "448595511d3f7e9eced911b15d7f46224133d5de2957de02f82b6de4932249b6",
   "download_size_beta_win": 78321336,
-  "download_sha256_win": "e10363ce52b7ff93bc632ddb17b7f13ce93e18b0cc1b58713232fe349b845947",
-  "download_size_win": 77424472,
+  "download_sha256_win": "8047af4f0d4291764343c27e55765dc8303e8f915b8ce4032794365188c2e4a8",
+  "download_size_win": 78384480,
   "download_sha256_beta_mac_pkg": "3fdbc62b74e82a629aa21044d2ff954da3f64581ff71ba7d0901a54e13864af4",
   "download_size_beta_mac_pkg": 107046668
 }
