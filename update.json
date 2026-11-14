@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.91",
+  "version_win": "13.16.93",
   "version_mac": "13.16.93",
   "version_linux": "13.16.91",
   "version": "13.16.91",
   "notes": "November 13th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Record your FISA into the Audio Editor — now on Windows too (beta). (K)\n* Help: the 8X/4X/EVO manual in Danish. (R)\n* Score Editor: Space no longer changes a setting by accident. (K,R)\n* Live Editor: easier section on/off menus. (R)\n* Fixed an issue when logging out of the Mac with the app open. (K,R)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.91.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.93.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.93.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.91.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 107658513,
   "download_sha256_beta_win": "15ebff4e5b3ab814eee8012cb601bd2d682e167c5bdacb216ee4ca0d698c118c",
   "download_size_beta_win": 78623840,
-  "download_sha256_win": "8047af4f0d4291764343c27e55765dc8303e8f915b8ce4032794365188c2e4a8",
-  "download_size_win": 78384480,
+  "download_sha256_win": "4cd59c7d3c9ec7293e9dfa653cec7765edc6fd6f5d13981fb35bfb22a842a1e4",
+  "download_size_win": 78641232,
   "download_sha256_beta_mac_pkg": "6cb1c57e9b6b60038954f34ddd6e06b7efe11a19a0f7d1920dafc22289caf5c6",
   "download_size_beta_mac_pkg": 107612665
 }
