@@ -1,10 +1,10 @@
 {
-  "version_win": "13.16.93",
+  "version_win": "13.16.94",
   "version_mac": "13.16.94",
   "version_linux": "13.16.93",
   "version": "13.16.93",
   "notes": "November 14th 2026\nVersion 13.16.x (stable) / 13.17.x (beta)\n**********************\nNEW!\n* Live Editor: Write/Save keeps your Orch Chord and Orch F.Bass effects (FR-8X). (R)\n* Live SET Editor: loading a SET is much faster. (R)\n* MIDI Monitor: a new window starts in the key you last picked. (K,R)\n* Choose a part: click another part while one plays to hear it instead. (K,R)\n* Audio Editor: cut out a part, or replace it from another take. (K)\n* See Help->Show Release Notes for More...",
-  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.93.exe",
+  "download_url_win": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-Setup-signed-13.16.94.exe",
   "download_url_mac": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.94.dmg",
   "download_url_linux": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator-13.16.93.AppImage",
   "download_url": "https://github.com/volovicg/K-Configurator-Update/releases/download/latest/K-Configurator.AppImage",
@@ -35,8 +35,8 @@
   "download_size_mac_pkg": 107991477,
   "download_sha256_beta_win": "bff322719bda2e32802a27783b9860fba3f986f7ad6abf9c86bfff80678253d4",
   "download_size_beta_win": 78791104,
-  "download_sha256_win": "4cd59c7d3c9ec7293e9dfa653cec7765edc6fd6f5d13981fb35bfb22a842a1e4",
-  "download_size_win": 78641232,
+  "download_sha256_win": "b0077de9727e6c8c876de8cadd7cae02f461542671d7d95291e59ec714193886",
+  "download_size_win": 78800576,
   "download_sha256_beta_mac_pkg": "a94cf1affaa637953f68c5eb88122030fa093fd45b26b8290fe143104522f572",
   "download_size_beta_mac_pkg": 107962499
 }
