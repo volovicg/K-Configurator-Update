@@ -39,5 +39,10 @@
   "download_size_win": 78800576,
   "download_sha256_beta_mac_pkg": "5482bbaaa2354b2647b2a104c25814f3feef0339f83fd05a56dfab7d042eaa36",
   "download_size_beta_mac_pkg": 108107188,
-  "feed_serial": 1794708346
+  "feed_serial": 1794708426,
+  "download_mirror_beta_linux": "https://updates.k-configurator.com/files/K-Configurator-beta-13.17.94.AppImage",
+  "download_mirror_beta_linux_deb": "https://updates.k-configurator.com/files/K-Configurator-beta-13.17.94.deb",
+  "download_mirror_beta_mac": "https://updates.k-configurator.com/files/K-Configurator-beta-13.17.95.dmg",
+  "download_mirror_beta_mac_pkg": "https://updates.k-configurator.com/files/K-Configurator-beta-13.17.95.pkg",
+  "download_mirror_beta_win": "https://updates.k-configurator.com/files/K-Configurator-Setup-signed-beta-13.17.94.exe"
 }
