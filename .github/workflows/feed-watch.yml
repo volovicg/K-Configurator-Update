@@ -1,0 +1,28 @@
+# .github/workflows/feed-watch.yml in volovicg/K-Configurator-Update (default branch gh-pages) — T626 (PLAN95 v2 T9, D14).
+# The coordinator copies this file and feed_watch.py (as .github/feed_watch.py) there after S3, then runs it once by hand
+# (gh workflow run feed-watch.yml --ref gh-pages). Daily 06:17 UTC. A failed check fails the run; GitHub mails the owner (G8).
+# While a hold on the update server is INTENDED: gh workflow disable feed-watch.yml (and enable it again afterwards).
+# Source + tests: K-Configurator tools/release/droplet/{feed-watch.yml,feed_watch.py}, tools/feed-watch-test/.
+name: Feed watch (update server vs GitHub)
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: feed-watch
+  cancel-in-progress: false
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/feed_watch.py
+          sparse-checkout-cone-mode: false
+      - name: Compare github.io, the committed feed and updates.k-configurator.com
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 -I .github/feed_watch.py
