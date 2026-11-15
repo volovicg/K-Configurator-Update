@@ -38,5 +38,6 @@
   "download_sha256_win": "b0077de9727e6c8c876de8cadd7cae02f461542671d7d95291e59ec714193886",
   "download_size_win": 78800576,
   "download_sha256_beta_mac_pkg": "a94cf1affaa637953f68c5eb88122030fa093fd45b26b8290fe143104522f572",
-  "download_size_beta_mac_pkg": 107962499
+  "download_size_beta_mac_pkg": 107962499,
+  "feed_serial": 1794700993
 }
