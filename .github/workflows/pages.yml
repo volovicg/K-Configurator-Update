@@ -16,6 +16,14 @@
 # This replaces that invisible step with an ordinary workflow: same result, but when it
 # fails there is a log saying why. Nothing else changes — the deploy scripts still just
 # push update.json to gh-pages, exactly as before.
+#
+# TWO JOBS SINCE 2026-11-21 (Greg approved)
+# With upload and deploy as two steps of ONE job, deploy-pages asked for the artifact ~2 s
+# after upload-pages-artifact finished and sometimes got "No artifacts named github-pages
+# were found" although the upload had succeeded (the artifact was listed by the API right
+# after). It failed twice on 2026-11-14 and five times in a row on 2026-11-21, each time
+# leaving update.json committed but not published until a re-run. As separate jobs, deploy
+# starts only after the build job has fully finished, so the artifact is registered first.
 name: Deploy site to Pages
 
 on:
@@ -35,10 +43,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -46,5 +51,13 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v4
