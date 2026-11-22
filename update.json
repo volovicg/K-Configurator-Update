@@ -39,7 +39,7 @@
   "download_size_win": 81952832,
   "download_sha256_beta_mac_pkg": "243d2d4db37c33167df38a83228f3b0611b0809022ec85764a545b307cc38794",
   "download_size_beta_mac_pkg": 115385352,
-  "feed_serial": 1795355675,
+  "feed_serial": 1795355766,
   "download_mirror_mac": "https://updates.k-configurator.com/files/K-Configurator-13.18.11.dmg",
   "download_mirror_mac_pkg": "https://updates.k-configurator.com/files/K-Configurator-13.18.11.pkg",
   "download_mirror_win": "https://updates.k-configurator.com/files/K-Configurator-Setup-signed-13.18.11.exe",
@@ -47,5 +47,7 @@
   "download_mirror_beta_linux": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.12.AppImage",
   "download_mirror_beta_linux_deb": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.12.deb",
   "download_mirror_linux": "https://updates.k-configurator.com/files/K-Configurator-13.18.12.AppImage",
-  "download_mirror_linux_deb": "https://updates.k-configurator.com/files/K-Configurator-13.18.12.deb"
+  "download_mirror_linux_deb": "https://updates.k-configurator.com/files/K-Configurator-13.18.12.deb",
+  "download_mirror_beta_mac": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.13.dmg",
+  "download_mirror_beta_mac_pkg": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.13.pkg"
 }
