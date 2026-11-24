@@ -39,7 +39,7 @@
   "download_size_win": 82663368,
   "download_sha256_beta_mac_pkg": "672ebafde23a12147acbd7e63da29efbaf792ba273423b058e763a58fd12d663",
   "download_size_beta_mac_pkg": 116593328,
-  "feed_serial": 1795516320,
+  "feed_serial": 1795516412,
   "download_mirror_beta_linux": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.12.AppImage",
   "download_mirror_beta_linux_deb": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.12.deb",
   "download_mirror_linux": "https://updates.k-configurator.com/files/K-Configurator-13.18.12.AppImage",
@@ -51,5 +51,7 @@
   "download_mirror_mac_pkg": "https://updates.k-configurator.com/files/K-Configurator-13.18.14.pkg",
   "notes_win": "November 23rd 2026\nVersion 13.18.14 (stable) / 13.19.14 (beta)\n**********************\nNEW!\n* Send to Hear: on the tree's right-click menu, with a Preview of the program you sent. (R)\n* Live Editor (4X): Write/Save keeps the octave set on the panel or in the editor. (R)\n* Live Editor: follows a program changed on the accordion and never saves over it. (R)\n* Editors: a number box at its limit says so; Import Register explains its locked box. (K,R)\n* Paste Special names the other file or backup the copy came from. (K,R)\n* 8X/4X/EVO: a paste that changes nothing is greyed; Set Bank Prefix skips empty programs. (R)\n* Score Editor: the toolbar fits on one row at 1200 px; Record warnings show in full. (K,R)\n* Score Editor: Return goes to the start; clearer repeat hints; more accurate glissandos. (K,R)\n* MIDI Monitor keeps drawing after Play; the DAW plugin keeps its settings in Cubase. (K,R)\n* FISA: starts faster, and the tree keeps drawing during a drop. (K)\n* Two Backups: clearer \"renamed only\" tooltip; typing in a tree no longer flips options. (K)\n* Eject a USB memory stick from the drive list, or right after an install. (K,R)\n* No more waits on a slow network folder or the 8X/4X/EVO menu after a Windows restart. (K,R)\n* About's Close and tree header buttons show in full; libraries you don't own say \"None\". (K,R)\n* Updates: the offer always shows its release notes; no \"offline\" message while online. (K,R)\n* Better diagnostics for support. (K,R)\n* See Help->Show Release Notes for More...",
   "notes_win_version": "13.18.14",
-  "download_mirror_win": "https://updates.k-configurator.com/files/K-Configurator-Setup-signed-13.18.14.exe"
+  "download_mirror_win": "https://updates.k-configurator.com/files/K-Configurator-Setup-signed-13.18.14.exe",
+  "download_mirror_beta_mac": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.15.dmg",
+  "download_mirror_beta_mac_pkg": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.15.pkg"
 }
