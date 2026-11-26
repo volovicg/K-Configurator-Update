@@ -39,7 +39,7 @@
   "download_size_win": 83356712,
   "download_sha256_beta_mac_pkg": "1aad2f062f3f6efe15d54aa37d0d598f8e428743f1a82cfb067609959bfda4f5",
   "download_size_beta_mac_pkg": 117948759,
-  "feed_serial": 1795723650,
+  "feed_serial": 1795723683,
   "notes_mac": "November 26th 2026\nVersion 13.18.18 (stable) / 13.19.18 (beta)\n**********************\nNEW!\n* Score: 32nds play exactly as written. (K,R)\n* Clearer Metronome and Level menus. (K,R)\n* Audio Editor: each take keeps its own files. (K,R)\n* Apply keeps the settings you didn't touch. (R)\n* FR-4X: fewer flash writes on Layout sends. (R)\n* No backup asked when importing into an Empty slot. (R)\n* See Help->Show Release Notes for More...",
   "notes_mac_version": "13.18.18",
   "notes_win": "November 25th 2026\nVersion 13.18.17 (stable) / 13.19.17 (beta)\n**********************\nNEW!\n* Score: fast runs written as 32nds. (K,R)\n* Audio Editor runs smoother. (K,R)\n* FR-4X: restore a .UPA over USB. (R)\n* Choose the accordion's MIDI port. (R)\n* Quit no longer stops at editors. (K,R)\n* FR-8X: Write/Save safe while a list plays. (R)\n* See Help->Show Release Notes for More...",
@@ -53,5 +53,7 @@
   "download_mirror_win": "https://updates.k-configurator.com/files/K-Configurator-Setup-signed-13.18.17.exe",
   "download_mirror_beta_mac": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.18.dmg",
   "download_mirror_beta_mac_pkg": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.18.pkg",
-  "download_mirror_beta_win": "https://updates.k-configurator.com/files/K-Configurator-Setup-signed-beta-13.19.18.exe"
+  "download_mirror_beta_win": "https://updates.k-configurator.com/files/K-Configurator-Setup-signed-beta-13.19.18.exe",
+  "download_mirror_mac": "https://updates.k-configurator.com/files/K-Configurator-13.18.18.dmg",
+  "download_mirror_mac_pkg": "https://updates.k-configurator.com/files/K-Configurator-13.18.18.pkg"
 }
