@@ -39,7 +39,7 @@
   "download_size_win": 83548168,
   "download_sha256_beta_mac_pkg": "40cc260e0a878507e2abc671c455447c9044438f000f69ab08602443c207888c",
   "download_size_beta_mac_pkg": 118221455,
-  "feed_serial": 1795760601,
+  "feed_serial": 1795760657,
   "notes_mac": "November 26th 2026\nVersion 13.18.18 (stable) / 13.19.18 (beta)\n**********************\nNEW!\n* Score: 32nds play exactly as written. (K,R)\n* Clearer Metronome and Level menus. (K,R)\n* Audio Editor: each take keeps its own files. (K,R)\n* Apply keeps the settings you didn't touch. (R)\n* FR-4X: fewer flash writes on Layout sends. (R)\n* No backup asked when importing into an Empty slot. (R)\n* See Help->Show Release Notes for More...",
   "notes_mac_version": "13.18.18",
   "notes_win": "November 26th 2026\nVersion 13.18.18 (stable) / 13.19.18 (beta)\n**********************\nNEW!\n* Score: 32nds play exactly as written. (K,R)\n* Clearer Metronome and Level menus. (K,R)\n* Audio Editor: each take keeps its own files. (K,R)\n* Apply keeps the settings you didn't touch. (R)\n* FR-4X: fewer flash writes on Layout sends. (R)\n* No backup asked when importing into an Empty slot. (R)\n* See Help->Show Release Notes for More...",
@@ -54,5 +54,6 @@
   "download_mirror_mac_pkg": "https://updates.k-configurator.com/files/K-Configurator-13.18.18.pkg",
   "download_mirror_win": "https://updates.k-configurator.com/files/K-Configurator-Setup-signed-13.18.18.exe",
   "download_mirror_beta_mac": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.19.dmg",
-  "download_mirror_beta_mac_pkg": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.19.pkg"
+  "download_mirror_beta_mac_pkg": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.19.pkg",
+  "download_mirror_beta_win": "https://updates.k-configurator.com/files/K-Configurator-Setup-signed-beta-13.19.19.exe"
 }
