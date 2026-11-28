@@ -39,7 +39,7 @@
   "download_size_win": 83717952,
   "download_sha256_beta_mac_pkg": "0379e406a8f2e068223e42eef242b7ba559228767ec89082c68bc5a93216ab34",
   "download_size_beta_mac_pkg": 118816904,
-  "feed_serial": 1795826462,
+  "feed_serial": 1795826510,
   "notes_mac": "November 27th 2026\nVersion 13.18.20 (stable) / 13.19.20 (beta)\n**********************\nNEW!\n* Score Editor: import a MIDI file as a score. (K,R)\n* Live Scoring: fast runs and grace notes stay on the beat. (K,R)\n* K-Editor (beta users): matches the FISA screen: values, units and names. (K)\n* K-Editor (beta users): accented register names now load on the FISA. (K)\n* K-Editor (beta users): scale presets set every note, as on the panel. (K)\n* Easier clicks on small number boxes. (K,R)\n* Reminder when SET edits are not saved yet. (R)\n* See Help->Show Release Notes for More...",
   "notes_mac_version": "13.18.20",
   "notes_win": "November 27th 2026\nVersion 13.18.19 (stable) / 13.19.19 (beta)\n**********************\nNEW!\n* SET files: Open in R-Editor works for every SET. (R)\n* Typing over On/Off/STD values now sticks. (K,R)\n* R-Editor: no blank page after Print Report. (R)\n* Clearer help when no accordion is found. (R)\n* Title Bar Only Mode keeps the USB drive list. (K,R)\n* MIDI Monitor: less battery use when left open. (K,R)\n* See Help->Show Release Notes for More...",
@@ -53,5 +53,7 @@
   "download_mirror_win": "https://updates.k-configurator.com/files/K-Configurator-Setup-signed-13.18.19.exe",
   "download_mirror_beta_mac": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.20.dmg",
   "download_mirror_beta_mac_pkg": "https://updates.k-configurator.com/files/K-Configurator-beta-13.19.20.pkg",
-  "download_mirror_beta_win": "https://updates.k-configurator.com/files/K-Configurator-Setup-signed-beta-13.19.20.exe"
+  "download_mirror_beta_win": "https://updates.k-configurator.com/files/K-Configurator-Setup-signed-beta-13.19.20.exe",
+  "download_mirror_mac": "https://updates.k-configurator.com/files/K-Configurator-13.18.20.dmg",
+  "download_mirror_mac_pkg": "https://updates.k-configurator.com/files/K-Configurator-13.18.20.pkg"
 }
